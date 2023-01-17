@@ -8,26 +8,41 @@
 </head>
 <style>
     ol,li,ul{
-        font-size: 10px;
+        font-size: 20px;
+    }
+    .heading{
+        color: #300de4;
+    }
+    .country{
+        color: brown;
+    }
+    .district{
+        color:rgb(142, 142, 223)
+    }
+    .state{
+        color:rgb(239, 32, 32)
+    }
+    ol .content{
+        color: #f1cb0b;
     }
 </style>
 <body>
     <ol ol type="1.">
-        <li><strong>Asia</strong></li>
+        <li class="heading"><strong>Asia</strong></li>
         <ol ol type="a">
-            <li>India</li>
+            <li class="country">India</li>
         <ol ol type="i">
-        <li>Goa</li>
+        <li class="district">Goa</li>
     </ul>
-        <ul ul type="list-style-type:disc">
-            <li>Panaji</li>
-            <li>Vasco Da Gama</li>
+        <ul class="state">
+            <li >Panaji</li>
+            <li class="state">Vasco Da Gama</li>
         </ul>
-        <li>Maharashtra</li>
+        <li class="district">Maharashtra</li>
     <ul>
-            <li>Mumbai</li>
+            <li class="state">Mumbai</li>
         
-              <ol ol type="a">
+              <ol class="content" ol type="a">
             <li>Andheri</li>
             <li>Bandra</li>
             <li>Navi Mumbai</li>
@@ -36,24 +51,24 @@
             </ul>
                 
         <ul>
-            <li>Pune</li>
+            <li class="state">Pune</li>
         
-        <ol type="a">
+        <ol class="content" type="a">
             <li>Wakad</li>
             <li>MG Road</li>
             <li>Hinjewadi</li>
             <li>Yarwada</li>
         </ol>
     </ul>
-    <ul>
+    <ul class="state">
         <li>Aurangabad</li>
         <li>Latur</li>
     </ul>
-    <li>Punjab</li>
-    <ul>
+    <li class="district">Punjab</li>
+    <ul class="state">
         <li>Ludhiana</li>
    
-    <ol ol type="a">
+    <ol class="content"ol type="a">
         <li>ShimlaPuri</li>
         <li>Giaspur</li>
         <li>Lohora</li>
@@ -61,33 +76,33 @@
         <li>Mundian</li>
         <li>Jamalpur</li>
     </ol> </ul>
-    <ul>
+    <ul class="state">
         <li>Jalandhar</li>
-        <ol ol type="a">
+        <ol class="content" ol type="a">
             <li>Focal Point</li></ol>
             <li>Moga</li>
             <li>Hoshiarpur</li>
             <li>Ropar</li>
             <li>Amritsar</li>
     </ul>
-    <li>Bihar</li>
-    <ul>
+    <li class="district">Bihar</li>
+    <ul class="state">
         <li>Patna</li>
-        <ol ol type="a">
+        <ol class="content" ol type="a">
             <li>Ganga Nagar</li></ol>
             <li>Ara</li>
             <li>Chhapra</li>
             <li>Siwan</li>
     </ul>
-    <li>Uttar Pradesh</li>
+    <li class="district">Uttar Pradesh</li>
     <ul>
-        <li>Ayodhya</li>
-        <ol ol type="a">
+        <li class="state">Ayodhya</li>
+        <ol class="content" ol type="a">
             <li>bikarpur</li>
             <li>Sohawal</li>
             <li>Pure Bazzar</li>
             <ul>
-                <li>Lucknow</li>
+                <li class="state">Lucknow</li>
             </ul>
             <li>Alam Bagh</li>
         </ol>
