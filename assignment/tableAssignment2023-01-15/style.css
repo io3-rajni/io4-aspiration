@@ -4,28 +4,34 @@
     box-sizing: border-box;
 }
 .container{
-    display: flex;
-    justify-content: center;
     margin: auto;
+    width: 70%;
+    border: 2px solid black;
 }
-/* h1{
-    display: flex;
-    justify-content: center;
-    height: 4rem;
-} */
+h1{
+    margin-top: 1%;
+    font-weight: 600;
+    height: 3rem;
+}
 table,
 td,
 th {
   border: 2px solid black;
-  /* border-collapse: collapse; */
   text-align: center;
-  /* height: 20px; */
-  font-weight: 600;
+    font-weight: 600;
   font-size: 18px;
+  margin: auto;
 }
 th {
-  width: 120px;
+  width: 200px;
 }
+
 .firstRow{
     height: 3rem;
+}
+.second{
+    width: 20rem;
+}
+.img{
+    width:8rem;
 }
