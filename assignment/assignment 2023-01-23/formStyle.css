@@ -77,17 +77,20 @@ h3{
     margin-top: 7%;
 }
 .main{
-    width: 53%;
+    width: 64%;
     color: white;
     font-size: 18px;
     margin: auto;
 }
-.form-btn ,input{
-    margin-left: 27%;
-    width: 100%;
+.form-btn{
+    width: 52%;
+    margin-left: 35%;
+}
+label{
+    margin-left: 30%;
 }
 input{
-    width: 53%;
+    width: 43%;
     height: 30px;
     font-size: 15px;
     background: rgb(242, 237, 232);
