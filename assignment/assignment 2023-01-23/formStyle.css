@@ -78,34 +78,35 @@ hr{
 }
 h3{
     color: white;
-    font-size: 33px;
+    font-size: 21px;
     margin: auto;
-    width: 80%;
-    margin-top: 7%;
+    width: 82%;
+    margin-top: 5%;
 }
+
 .main{
      width: 64%; 
     color: white;
     font-size: 18px; 
 }
 .first-label{
-    margin-left: 36%;
+    margin-left: 13%;
 }
 .second-label,.fourth-label{
-    margin-left: 31%;
+    margin-left: 15%;
 
 }.third-label{
-    margin-left: 28%;
-
-}.fifth-label{
     margin-left: 18%;
+}.fifth-label{
+    margin-left: 6%;
 
 }
 .form-btn{
-    margin-left: 36%;
+    /* margin-left: 36%; */
+    width: 42%;
 }
-.form-btn,.clear-btn{
-     width: 42%;
+.clear-btn{
+    
     color:rgba(232, 89, 18, 0.953);
     border-radius: 2px; 
 }
@@ -116,11 +117,12 @@ border-radius: 2px;
 }
 
 input{
-    width: 43%;
-    height: 30px;
-    font-size: 15px;
+    width: 35%;
+    height: 24px;
+    font-size: 11px;
     background: rgb(242, 237, 232);
     border: none;
+    margin-right: 19%;
 }
 /* third content end */
 /* footer Section Start */
