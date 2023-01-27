@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    border:1px solid rgb(229, 156, 168);
+}
+.passport-application{
+    margin: auto;
+    width: 35%;
+}
+.heading{
+    margin: auto;
+    font-size: 20px;
+    width: 58%;
+}
