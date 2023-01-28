@@ -9,8 +9,6 @@
     font-size: 23px;
 }
 .container{
-    /* width: 70%; */
-    /* margin: auto; */
     border:1px solid rgb(229, 156, 168);
     margin-top: 34px;
 }
@@ -30,7 +28,7 @@
 }
 .first-img,img{
     display: inline-block;
-    width: 14%;
+    width: 10%;
     height: 80px;
 }
 .para,p{
@@ -39,8 +37,9 @@
     font-weight: 600;
 }
 /* second session */
-.sevices{height: 39px;
-    background: rgb(133, 130, 130);
+.sevices{
+    height: 39px;
+    background: rgb(185, 181, 181);
 }
 .applying-for{
     height: 31px;
@@ -65,4 +64,9 @@
     display: inline-block;
     margin-left: 6.4%;
     padding-top: 10px
+}
+.sevices1{
+    height: 39px;
+    margin-top: 10px;
+    background: rgb(185, 181, 181);
 }
