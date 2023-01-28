@@ -3,17 +3,37 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.container{
-    width: 70%;
+.main-container{
     margin: auto;
+    width: 91%;
+    font-size: 23px;
+}
+.container{
+    /* width: 70%; */
+    /* margin: auto; */
     border:1px solid rgb(229, 156, 168);
+    margin-top: 34px;
 }
 .passport-application{
     margin: auto;
     width: 35%;
+    margin-top: 10px;
 }
 .heading{
     margin: auto;
-    font-size: 20px;
-    width: 58%;
+    font-size: 28px;
+    width: 52%;
+}
+.img-para{
+    width: 100%;
+    display: inline-block;
+}
+.first-img,img{
+    display: inline-block;
+    width: 14%;
+    height: 80px;
+}
+.para,p{
+    display: inline-block;
+    width: 80%;
 }
