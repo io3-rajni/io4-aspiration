@@ -8,15 +8,22 @@
     width: 91%;
     font-size: 23px;
 }
+.passport-application{
+width: 36%;
+margin: auto;
+}
 .container{
     border:1px solid rgb(229, 156, 168);
     margin-top: 34px;
 }
-.passport-application{
-    margin: auto;
-    width: 35%;
-    margin-top: 10px;
+.option{
+    margin-left: 13%;
+    border: 1px solid black;
+    width: 27%;
+    height: 27px;
+    background-color: rgba(211, 227, 241, 0.812);
 }
+
 .heading{
     margin: auto;
     font-size: 25px;
@@ -48,7 +55,7 @@
     margin: auto;
     margin-left: 15%;
 }
-.requried{
+.required{
     font-weight: 900;
 }
 .button{
@@ -56,17 +63,38 @@
     display: inline-block;
 }
 .radio-button{
-    margin-left: 10%;
+    margin-left: 21%;
     display: inline-block;
     padding-top: 10px; 
 }
 .radio-button1{
     display: inline-block;
-    margin-left: 6.4%;
+    margin-left: 17.4%;
     padding-top: 10px
 }
-.sevices1{
+.services1{
     height: 39px;
     margin-top: 10px;
     background: rgb(185, 181, 181);
 }
+/* third session */
+.middle-name,.surname{
+    width: 100%;
+    border: 1px solid black;
+    height: 27px;
+    background-color: rgba(211, 227, 241, 0.812);
+}
+option,.gender{
+    width: 20%;
+    height: 27px;
+    background-color: rgba(211, 227, 241, 0.812);
+}
+.radio-button2{
+display: inline-block;
+    margin-left: 10.4%;
+    padding-top: 10px}
+    .radio-button3{
+        display: inline-block;
+        margin-left: 16.4%;
+        padding-top: 10px    
+    }

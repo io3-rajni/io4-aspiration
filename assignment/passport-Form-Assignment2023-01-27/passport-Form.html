@@ -15,15 +15,19 @@
 <div class="img-para">
 <img src="https://miro.medium.com/max/1600/1*gQ9Hzhv62EoRrTy5szrKCw.png"alt="link" width="14%"height="120px" class="first-img"/>
 <p class="para">Please read the Password instruction and booklet before filling the form.Furnishing of incorrect information/supperssion of information would lead to rejection of application and would attract panel prevision and prescribed under the password act,1967.
-    Please produce your original document at the time of submission of the form.All fields marked are{*} to filled mandatory to fill.
+    Please produce your original document at the time of submission of the form.All fields marked are(*) to filled mandatory to fill.
 </div>
 </div>
 <!-- second session -->
-<div class="requried">
+<div class="required">
 <h3 class="sevices">Service-required</h3>
 <br/>
-<label for="applying-for">Applying for *:</label>
-<input type="test" id="applying-for" class="applying-for">
+<label for="applying">Applying for *:</label>
+<input list="applying" class="option">
+<datalist id="applying">
+    <option value="Fresh Option">
+    <option value="Re-issue of Passport">
+</datalist>
 <br/>
 <div class="button">
 <label for="Type of Application" class="application">Type of Application *:</label>
@@ -42,9 +46,45 @@
 <label for="60psges">60pages</label>
 </div>
 </div>
-<h3 class="sevices1">Applicant-Details</h3>
+<h3 class="services1">Applicant-Details</h3>
 </div>
+<!-- third session -->
+<div class="third-session">
+<label for="middle-name" class="required">Applicant's Given Name (Given Name means First Name followed by middle Name (if any)) *</label>
+<input type="text" id="middle-name" class="middle-name">
+<br/>
+<label for="surname" class="required">Surname</label>
+<br/>
+<input type="text" id="surname" name="surname" class="surname">
+<br/>
+<label for="gender" class="required">Gender*</label>
+<select class="gender">
+    <!-- <input type="gender"> -->
+    <option  class="gender" class="required"></option>
 
+    <option value="male" id="male" class="gender" class="required">Male</option>
+    <option value="fe-male" id="fe-male" class="gender">Female</option>
+    <option value="other" id="other" class="gender">Others</option>
+</select>
+<br/>
+<label class="required">Are you known by any other names(aliases)? *</label>
+<div class="radio-button2">
+<input type="radio" id="any-other-name" class="required">
+<label for ="any other name" class="required" >Yes</label>
+<input type="radio" id="any-other-name"class="required">
+<label for ="any other name" class="required">No</label>
+</div>
+<br/>
+<label class="required">Have you ever changed your name ? *</label>
+<div class="radio-button3">
+<input type="radio" id="changed-name" class="required">
+<label for ="any other name" class="required">Yes</label>
+<input type="radio" id="changed-name"  class="required">
+<label for ="changed-name" class="required">No</label></div>
+<br/>
+<label for="Dob" class="required">Date of Birth (dd/mm/yy)*</label>
+
+</div>
 </div>
 </body>
 </html>
