@@ -21,7 +21,7 @@
 }
 .heading{
     margin: auto;
-    font-size: 28px;
+    font-size: 25px;
     width: 52%;
 }
 .img-para{
@@ -36,4 +36,33 @@
 .para,p{
     display: inline-block;
     width: 80%;
+    font-weight: 600;
+}
+/* second session */
+.sevices{height: 39px;
+    background: rgb(133, 130, 130);
+}
+.applying-for{
+    height: 31px;
+    border: 2px solid black;
+    width: 28%;
+    margin: auto;
+    margin-left: 15%;
+}
+.requried{
+    font-weight: 900;
+}
+.button{
+    width: 100%;
+    display: inline-block;
+}
+.radio-button{
+    margin-left: 10%;
+    display: inline-block;
+    padding-top: 10px; 
+}
+.radio-button1{
+    display: inline-block;
+    margin-left: 6.4%;
+    padding-top: 10px
 }
