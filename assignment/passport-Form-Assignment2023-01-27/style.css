@@ -139,5 +139,20 @@ margin-top: 10px;
     background-color: rgba(211, 227, 241, 0.812);
     height: 27px;
     border: 1px solid black;
-
+}
+.house-no{
+    width: 78%;
+    background-color: rgba(211, 227, 241, 0.812);
+height: 27px;
+}
+.code{
+    width: 18%;
+    background-color: rgba(211, 227, 241, 0.812);
+height: 27px; 
+margin-top: 12px;  
+}
+#country{
+    margin-left: 12%;
+}#tel{
+    margin-left: 3%;
 }
