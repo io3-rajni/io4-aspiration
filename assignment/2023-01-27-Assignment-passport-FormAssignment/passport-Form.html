@@ -209,12 +209,13 @@ Fingerprint/Iris for authentication with UIDAI. I have no objection using my ide
     <label for="Address"  class="required">No</label>    
 </div>
 <br/>
-<label for="house-no" class="required">House No. and Street Name *</label>
+
+<label for="house-no" >House No. and Street Name *</label>
 <input type="text"class="house-no" id="house-no" required>
 <br/>
-<label for="address" class="required" >Village or Town or City *</label>
+<label for="address"  >Village or Town or City *</label>
 <input type="text" type="number" class="id" spellcheck="true" required   >
-<label for="country" class="required"  idS="country">Region/Country *</label>
+<label for="country"   idS="country">Region/Country *</label>
 <select for="country" class="id" spellcheck="true">
     <option id="1"></option>
     <option id="1"> India</option>
@@ -230,17 +231,262 @@ Fingerprint/Iris for authentication with UIDAI. I have no objection using my ide
     <option id="11">England</option>
 </select>
 <br/>
-<div class="=phn-num">
-<label for="zip-code" class="required">Zip Code</label>
+<div class="phn-num">
+<label for="zip-code" >Zip Code</label>
 <input type="number" class="code" value="code" class="code" minlength="6"maxlength="6" title="Enter Only Six number">
-<label for="number" class="required" id="tel">Mobile Number*</label>
-<input type="tel" class="code" value="91-" pattern="[0-9]{5}-[0-9]{5}" required minlength="13"maxlength="13">
-<label for="tel-phone" class="required" id="tel">Telephone</label>
+<label for="number"  id="tel">Mobile Number*</label>
+<input type="tel" class="code" value="91-" autocomplete="on" pattern="[0-9]{5}-[0-9]{5}" required minlength="13"maxlength="13">
+<label for="tel-phone"  id="tel">Telephone</label>
 <input type="tel" value="0-" class="code" minlength="13"maxlength="13" >
 </div>
 <br/>
 
-<input type="submit" value="submit">
+<label for="email" >E-mail ID*</label>
+<input type="email" class="email" required autocomplete="on"></input>
+<br/>
+
+<br>
+<label for="Permanent Address" class="required">Do you have a Permanent Address? *</label>
+<div class="radio-button3">
+    <input type="radio" name="address" required>
+    <label for="Address"  >Yes</label>
+    <input type="radio"name="address"required>
+    <label for="Address" >No</label>    
+</div>
+<h3 class="services">EmergencyContact Details *</h3>
+<br/>
+<label for="address">Name and Address *</label>
+<input class="Emergency-Contact-Details" required>
+<br/>
+<div class="phn-num1">
+    <label for="number" id="tel-num">Mobile Number*</label>
+    <input type="tel-num" class="tel" value="91-" autocomplete="on" pattern="[0-9]{5}-[0-9]{5}" required minlength="13"maxlength="13">
+    <label for="tel-phone" id="tel-num">Telephone</label>
+    <input type="tel" value="0-" class="tel" minlength="13"maxlength="13" >
+    </div>
+    <br/>
+<label for="email">E-mail ID*</label>
+<input type="email" class="email" required autocomplete="on"></input>
+<br/>
+<h3 class="services">Identity Certificate /Passport Details*</h3>
+<br/>
+<label for="Permanent Address">Have you ever held/hold any Identity Certificate? *</label>
+<div class="radio-button3">
+    <input type="radio" name="address" required>
+    <label for="Address"  >Yes</label>
+    <input type="radio"name="address"required>
+    <label for="Address" >No</label>    
+</div>
+<br/>
+<h3 class="identity">(Identity Certificate(IC) is normally issued to Tibetan/other stateless people residing in India)
+    Details of Previous/Current Diplomatic/Official Passport*</h3>
+    <br/>
+    <div class="identity-details">
+        <div class="details">
+    <input type="radio" required >
+    <label for="details">Details Available</label></div>
+<div class="details1">
+    <input type="radio" required  >
+    <label for="details">Details Not Available/Never Held Diplomatic/Official Passport</label></div>
+</div>
+    <br/>
+    <label for="Permanent Address"  class="required">Have you ever applied for passport, but not issued? *</label>
+<div class="radio-button3">
+    <input type="radio" name="address" required>
+    <label for="Address"  >Yes</label>
+    <input type="radio"name="address"required>
+    <label for="Address" >No</label>    
+</div>
+<br/>
+<h3 class="services" class="required">Other Details </h3>
+<br/>
+<!-- sixth session -->
+<h3 class="identity">1) Provide the following details if there are any criminal proceedings pending against the applicant.</h3>
+    <br/>
+    <div class="num-options">
+        <div class="num-1">
+    <label for="Permanent Address" >Are any proceedings in respect of an offence alleged to have been committed by you pending before a criminal court 
+        in India? *</label></div>
+<div class="num-radio-button4">
+    <input type="radio"required>
+    <label for="options"  >Yes</label>
+    <input type="radio"required>
+    <label for="options" >No</label>  </div>  
+</div>
+<br/>
+<div class="num-options">
+    <div class="num-1">
+<label for="Permanent Address" >Has any warrant or summons for your appearance been issued and pending before a court under any law for the time 
+    being in force? *</label></div>
+<div class="num-radio-button4">
+<input type="radio"required>
+<label for="options"  >Yes</label>
+<input type="radio"required>
+<label for="options" >No</label>  </div>  
+</div>
+<br/>
+ <div class="num-options">
+    <div class="num-1">
+<label for="Permanent Address" >Has a warrant for your arrest been issued by a court under any law for the time being in force? *</label></div>
+<div class="num-radio-button4">
+<input type="radio"required>
+<label for="options"  >Yes</label>
+<input type="radio"required>
+<label for="options" >No</label>  </div>  
+</div>
+<br/>
+    <div class="num-options">
+        <div class="num-1">
+    <label for="Permanent Address" >Has an order prohibiting your departure from India been made by any court? *</label></div>
+<div class="num-radio-button4">
+    <input type="radio"required>
+    <label for="options"  >Yes</label>
+    <input type="radio"required>
+    <label for="options" >No</label>  </div>  
+</div>
+<br/>
+<h3 class="identity">2) Provide the following details if the applicant has been convicted by a court in India</h3>
+<br/>
+<div class="num-options">
+    <div class="num-1">
+<label for="Permanent Address" >Have you, at any time during the period of five years immediately preceding the date of this application, 
+    been convicted by a court in India for any offence involving moral turpitude and sentenced in respect thereof to 
+    imprisonment for not less than two years?*</label></div>
+<div class="num-radio-button4">
+<input type="radio"required>
+<label for="options"  >Yes</label>
+<input type="radio"required>
+<label for="options" >No</label>  </div>  
+</div>
+<br/>
+<h3 class="identity">3) Provide the following details if the applicant has been refused/denied passport.</h3>
+    <br/>
+    <div class="num-options">
+        <div class="num-1">
+    <label for="Permanent Address" >Have you ever been refused/denied passport? *</label></div>
+    <div class="num-radio-button4">
+        <input type="radio"required>
+        <label for="options"  >Yes</label>
+        <input type="radio"required>
+        <label for="options" >No</label>  </div>  
+        </div>
+        <br/>
+        <div class="num-options">
+            <div class="num-1">
+        <label for="Permanent Address" >Has your passport ever been impounded?*</label></div><div class="num-radio-button4">
+            <input type="radio"required>
+            <label for="options"  >Yes</label>
+            <input type="radio"required>
+            <label for="options" >No</label>  </div>  
+            </div>
+            <br/>
+            <div class="num-options">
+                <div class="num-1">
+            <label for="Permanent Address" >Has your passport ever been revoked?*</label></div><div class="num-radio-button4">
+                <input type="radio"required>
+                <label for="options"  >Yes</label>
+                <input type="radio"required>
+                <label for="options" >No</label>  </div>  
+                </div>
+                <br/>
+                <h3 class="identity">4) Provide the following details if applicant has applied for or been granted foreign citizenship.</h3>
+    <br/>
+    <div class="num-options">
+        <div class="num-1">
+    <label for="Permanent Address" >Have you ever been granted citizenship by any other region/country?*</label></div>
+    <div class="num-radio-button4">
+        <input type="radio"required>
+        <label for="options"  >Yes</label>
+        <input type="radio"required>
+        <label for="options" >No</label>  </div>  
+        </div>
+        <br/>
+        <div class="num-options">
+            <div class="num-1">
+        <label for="Permanent Address" >Have you ever held the passport of any other region/country at any time?*</label></div><div class="num-radio-button4">
+            <input type="radio"required>
+            <label for="options"  >Yes</label>
+            <input type="radio"required>
+            <label for="options" >No</label>  </div>  
+            </div>
+            <br/>
+            <div class="num-options">
+                <div class="num-1">
+            <label for="Permanent Address" >Have you ever surrendered your Indian passport?*</label></div><div class="num-radio-button4">
+                <input type="radio"required>
+                <label for="options"  >Yes</label>
+                <input type="radio"required>
+                <label for="options" >No</label>  </div>  
+                </div>
+                <br/>
+                <div class="num-options">
+                    <div class="num-1">
+                <label for="Permanent Address" >Have you ever applied for renunciation of Indian citizenship?*</label></div><div class="num-radio-button4">
+                    <input type="radio"required>
+                    <label for="options"  >Yes</label>
+                    <input type="radio"required>
+                    <label for="options" >No</label>  </div>  
+                    </div>
+                    <br/>
+                    <h3 class="identity">5) Provide the following details if applicant has returned to India on Emergency Certificate.</h3>
+                    <br/>
+                    <div class="num-options">
+                        <div class="num-1">
+                    <label for="Permanent Address" >Have you ever returned to India on Emergency Certificate (EC) ? *</label></div>
+                    <div class="num-radio-button4">
+                        <input type="radio"required>
+                        <label for="options"  >Yes</label>
+                        <input type="radio"required>
+                        <label for="options" >No</label>  </div>  
+                        </div>
+                        <br/>
+                        <div class="num-options">
+                            <div class="num-1">
+                        <label for="Permanent Address" >Have you ever been deported from any country?*</label></div><div class="num-radio-button4">
+                            <input type="radio"required>
+                            <label for="options"  >Yes</label>
+                            <input type="radio"required>
+                            <label for="options" >No</label>  </div>  
+                            </div>
+                            <br/>
+                               <div class="num-options">
+                                <div class="num-1">
+                            <label for="Permanent Address" >Have you ever been repatriated from any country back to India?*</label></div><div class="num-radio-button4">
+                                <input type="radio"required>
+                                <label for="options"  >Yes</label>
+                                <input type="radio"required>
+                                <label for="options" >No</label>  </div>  
+                                </div>
+                                <br/>
+                                <!-- seventh session -->
+<h3 class="services" class="required">Self Declaration</h3>
+<br/>
+<p class="para2">I owe allegiance to the sovereignty, unity & integrity of India, and have not voluntarily acquired citizenship or travel document of any 
+    other country. I have not lost, surrendered or been deprived of the citizenship of India. I have not contravened any of the conditions 
+    relating to the possession and use of an Indian passport. 
+    I affirm that the information and particulars given by me in this form are true and correct. I further state that I am not suppressing any 
+    material information in this regard. I further affirm that the enclosures and documentary proof submitted in support of my application for 
+    an Indian passport are authentic and solely pertain to me and I am fully responsible for the accuracy of the same. I am liable to be 
+    penalized or prosecuted if found otherwise. I am aware that under the Passports Act, 1967 it is a criminal offence to furnish any false 
+    information or to suppress any material information with a view to obtaining passport or travel document. 
+    I have read and understood the contents of the above and by submitting this form certify that all the information submitted by me in the 
+    form is bona fide. 
+ <br/>
+ <input type="checkbox" id="checkbox" autofocus >
+ <label for="iagree">I agree</label></p>
+ <br/>
+ <label for="place">Place</label>
+ <input type="text" autocomplete="on" autofocus required class="required-place">
+ <label for="place">Date (DD/MM/YYYY) *</label>
+ <input type="datetime" autocomplete="on" autofocus required>
+ <br>
+<h3 class="services">Note</h3>
+<br>
+<p class="para-3">Applicants are required to submit the proof of address of the present address only, irrespective of the date from which he/she has been 
+    residing at the given address.</p>
+    <br>
+    <input type="Valid&Save" value="Validate & Save" class="valid">
+<br/>
 </div>
 </form>
 </body>

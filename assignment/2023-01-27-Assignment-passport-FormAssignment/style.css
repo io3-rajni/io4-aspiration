@@ -7,7 +7,9 @@
     margin: auto;
     width: 77%;
     font-size: 20px;
-    border:2px solid black;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 1px 22px 15px 0px;
 }
 .passport-application{
 width: 36%;
@@ -102,7 +104,7 @@ display: inline-block;
     .radio-button3{
         display: inline-block;
         margin-left: 16.4%;
-        padding-top: 10px    
+        padding-top: 10px ;   
     }
     /* fourth session */
     .village-town{
@@ -144,6 +146,7 @@ margin-top: 10px;
     width: 78%;
     background-color: rgba(211, 227, 241, 0.812);
 height: 27px;
+margin-top: 11px;
 }
 .code{
     width: 18%;
@@ -155,4 +158,70 @@ margin-top: 12px;
     margin-left: 12%;
 }#tel{
     margin-left: 3%;
+}
+.email{
+    width: 46%;
+    background-color: rgba(211, 227, 241, 0.812);
+height: 27px; 
+margin-left: 7%;
+}.Emergency-Contact-Details{
+    width: 100%;
+    background-color: rgba(211, 227, 241, 0.812);
+    height: 27px; 
+margin-top: 10px;
+}.tel{
+    width: 18%;
+    background-color: rgba(211, 227, 241, 0.812);
+height: 27px; 
+margin-top: 12px; 
+margin-left: 2%;
+}
+.identity{
+    width: 100%;
+    margin-top: 10px;
+}
+.identity-details{
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+}
+.details1{
+    width: 55%;
+    display: inline-block; 
+}
+.details{
+    width: 35%;
+    display: inline-block; 
+}
+/* sixth session */
+.num-options{
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+}
+.num-options{
+    margin-top: 10px;
+}
+.num-1{
+    width: 83%;
+    margin: auto;
+    display: inline-block;
+}
+.num-radio-button4{
+    margin: auto;
+    width: 9%;
+    display: inline-block;
+    float: right;
+}
+/* seventh session */
+#checkbox1{
+    margin-left: 10px;
+}.required-place{
+    background-color: rgba(211, 227, 241, 0.812);
+width: 40%;
+}
+.valid{
+    width: 13%;
+    height: 32px;
+    background-color: rgb(219, 211, 178);
 }
