@@ -85,32 +85,35 @@ h3{
 }
 
 .main{
-     width: 64%; 
+     width: 100%; 
     color: white;
     font-size: 18px; 
 }
 .first-label{
-    margin-left: 13%;
+    margin-left: 20%;
 }
 .second-label,.fourth-label{
-    margin-left: 15%;
+    margin-left: 17%;
 
 }.third-label{
-    margin-left: 18%;
+    margin-left: 15%;
 }.fifth-label{
-    margin-left: 6%;
+    margin-left: 8%;
 
 }
 .form-btn{
-    /* margin-left: 36%; */
-    width: 42%;
+    width: 100%;
+    margin-left: 43%;
 }
 .clear-btn{
-    
+    width: 17%;
+    margin: auto;
     color:rgba(232, 89, 18, 0.953);
     border-radius: 2px; 
 }
 .create-btn{
+    margin: auto;
+    width: 17%;
     background: rgb(242, 237, 232);
     color: rgba(232, 89, 18, 0.953);
 border-radius: 2px;
@@ -154,13 +157,14 @@ h4,.heading{
     margin-left: 30px;
     margin-top: 9px;
     font-size: 20px;
+    color: #fff;
 }
 .icons-class{
     margin-left: 60%;
 }
 .icons-class,.img-last{
-    margin-left: 10px;
-    margin-right: 10px;
+    float: right;
+    margin-right: 15px;
 
 }
     /* footer Section end */
