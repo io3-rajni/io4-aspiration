@@ -1,0 +1,17 @@
+.main-container{
+    width: 50%;
+    margin: auto;
+    color: blueviolet;
+    
+}
+.container{
+    color: #fff;
+    background-color: blueviolet;
+    border: 1px solid black;
+    height: 100vh;
+    padding: 10px;
+}
+input,.same-class{
+    margin-top: 20px;
+    height: 20px;
+}
