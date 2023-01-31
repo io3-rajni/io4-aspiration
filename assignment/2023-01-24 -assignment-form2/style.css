@@ -9,9 +9,27 @@
     background-color: blueviolet;
     border: 1px solid black;
     height: 100vh;
-    padding: 10px;
+    padding: 5px;
 }
-input,.same-class{
-    margin-top: 20px;
+.form{
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    margin-top: 13px;
+}
+.label-class{
+    width: 30%;
+    margin: auto;
+    display: inline-block;
+}
+.input-class{
     height: 20px;
+    margin: auto;
+    display: inline-block;
+    width: 69%;
+}
+.country-class{
+    width: 42%;
+    display: inline-block;
+    margin: auto
 }
