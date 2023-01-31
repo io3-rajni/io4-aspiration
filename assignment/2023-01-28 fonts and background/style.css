@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main.container{
+    width: 80%;
+}
+.div-1,.div-2,.div-3,.div-4,.div-5,.div-6,.div-7,.div-8,.div-9,.div-10,.div-11,.div-12,.div-13,.div-14,.div-15,.div-16{
+    width: 25%;
+    height: 200px;
+float: left;
+    border: 1px solid black;
+}
+.div-1{
+  background-image: radial-gradient(rgb(193, 142, 142),rgb(28, 28, 79),rgb(214, 173, 214),rgb(7, 40, 7));
+}
+.div-2{
+    background-image: linear-gradient(to right,#5eb5ac,#799b39,#514310,#482a28);
+}
+.div-3{
+    background-image: radial-gradient( closest-side at 60% 40%,
+    #5e7023, #beb398 ,rgb(125, 52, 52),rgb(116, 24, 102)
+,rgb(106, 91, 152)    );
+}.div-4{
+    background-image: radial-gradient(farthest-side at 70% 30%, #52aec4,#acbef4,#1584cd,#4216adcb);
+}
+.div-5{
+    background-image: conic-gradient( from 83deg ,red 11deg, purple 10deg,brown 56deg,
+    blue 153deg, green);
+}
+.div-6{
+    background-image: conic-gradient( at 2% 11% ,red 21deg, purple 136deg,brown 33deg,
+    blue 103deg, green)   
+}
+.div-7{
+    background: repeating-conic-gradient(
+    white 0deg,
+    white 90deg,
+    rgb(9, 28, 9) 90deg,
+    rgb(7, 28, 7) 180deg,
+    red 180deg,
+    red 270deg
+    blue 270deg,
+    blue 360deg);
+         background: repeating-conic-gradient(
+            white 0deg,
+            white 90deg,
+            blue 90deg,
+            blue 180deg,
+            green 180deg,
+            green 270deg,
+            black 270deg,
+            black 360deg
+          );} 
