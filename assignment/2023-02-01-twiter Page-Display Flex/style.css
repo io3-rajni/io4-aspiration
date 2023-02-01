@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 90%;
+    margin: auto;
+border:1px solid black;
+}
+.container{
+    height: 80vh;
+}
+.main-container{
+    display: flex;
+    width: 90%;
+    height: 67px;
+border:1px solid black;
+margin: auto;
+}
+.anchor{
+   width: 90%; 
+    margin-top: 16px;
+}
+.navbar{
+display: flex;
+width: 90%;
+}
+a{
+  text-decoration: none;
+  color: #000;  
+  font-size: 21px;
+  padding: 0px 7px 0px 36px;
+    justify-content: space-around; 
+}
+.icon{
+    color: rgb(24, 140, 228);
+    margin-top: 16px;
+    font-size: 30px;
+}
+button{
+    font-size: 21px;
+    height: 33px;
+    margin-top: 13px;
+    margin-left: 37%;
+    width: 11%;
+    border-radius: 15px;
+    background-color: rgb(24, 140, 228);
+    color: #fff;
+    border: none;
+    padding: 5px;
+    margin-right: 5%;
+}
+.main-div{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 11px;
+}
+.first-div{
+ height: 34vh;
+    width: 28%;
+    border: 1px solid black;
+}
+.second-div{
+    width: 42%;
+    height: 50vh;
+    border: 1px solid black;
+}
+.third-div{
+    height: 34vh;
+    width: 28%;
+    border: 1px solid black;
+}
+/* First-Box-Start */
+h1{
+    text-align: center;
+    color: white;
+    padding-top: 27px 0px 25px;
+    background: black;
+    height: 104px;
+    padding-top: 24px;
+}
+.section{
+    display: flex;
+}
+.first-box-img{
+    margin-top: -18px;
+    border-radius: 50%;
+    margin-left: 14px;
+}
+.first-box-second-text{
+    width: 12%;
+    margin-left: 11%;
+    padding-top: 4px;
+}
+.table-class{
+    text-align: center;
+}
+.row-1{
+    margin: 10px;
+}
