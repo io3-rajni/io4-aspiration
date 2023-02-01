@@ -97,6 +97,8 @@ h1{
 }
 .table-class{
     text-align: center;
+    display: inline-block;
+    justify-content: space-between;
 }
 .row-1{
     margin: 10px;
