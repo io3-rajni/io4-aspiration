@@ -9,7 +9,7 @@ body{
 border:1px solid black;
 }
 .container{
-    height: 80vh;
+    height: 100vh;
 }
 .main-container{
     display: flex;
@@ -19,30 +19,31 @@ border:1px solid black;
 margin: auto;
 }
 .anchor{
-   width: 90%; 
+   width: 91%; 
     margin-top: 16px;
 }
 .navbar{
 display: flex;
-width: 90%;
+width: 77%;
 }
 a{
   text-decoration: none;
   color: #000;  
   font-size: 21px;
-  padding: 0px 7px 0px 36px;
+  padding: 0px 7px 0px 24px;
     justify-content: space-around; 
 }
 .icon{
     color: rgb(24, 140, 228);
     margin-top: 16px;
     font-size: 30px;
+    width: 26;
 }
 button{
     font-size: 21px;
     height: 33px;
     margin-top: 13px;
-    margin-left: 37%;
+    margin-left: 34%;
     width: 11%;
     border-radius: 15px;
     background-color: rgb(24, 140, 228);
@@ -58,14 +59,15 @@ button{
     justify-content: space-around;
     margin-top: 11px;
 }
+/* First-Box-Start */
 .first-div{
- height: 34vh;
+ height: 44vh;
     width: 28%;
     border: 1px solid black;
 }
 .second-div{
     width: 42%;
-    height: 50vh;
+    height: 79.5vh;
     border: 1px solid black;
 }
 .third-div{
@@ -73,7 +75,6 @@ button{
     width: 28%;
     border: 1px solid black;
 }
-/* First-Box-Start */
 h1{
     text-align: center;
     color: white;
@@ -97,9 +98,28 @@ h1{
 }
 .table-class{
     text-align: center;
-    display: inline-block;
-    justify-content: space-between;
+    float: center;
+    width: 96%;
+    margin: auto;
 }
-.row-1{
+th,td{
+padding-left: 20px;
+}
+td{
+    color: rgb(24, 140, 228);
+padding-top: 10px;
+}
+/* Second-Box */
+.second-box{
+    display: flex;
+    margin-top: 10px;
+}
+.para-1{
+    padding-top: 12px;
+    font-size: 14px;
+    margin-left: 4%;
+}
+.para2
+{
     margin: 10px;
 }
