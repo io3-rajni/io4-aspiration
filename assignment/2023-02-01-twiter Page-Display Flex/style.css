@@ -6,16 +6,17 @@
 body{
     width: 90%;
     margin: auto;
-border:1px solid black;
 }
 .container{
     height: 100vh;
+    background-color:#E6ECF0 ;
+    color:#313233
 }
 .main-container{
     display: flex;
-    width: 90%;
-    height: 67px;
-border:1px solid black;
+    width: 100%;
+    height: 56px;
+    background-color: #fff;
 margin: auto;
 }
 .anchor{
@@ -25,11 +26,14 @@ margin: auto;
 .navbar{
 display: flex;
 width: 77%;
+margin-left: 3%;
+color:#313233
+
 }
 a{
   text-decoration: none;
   color: #000;  
-  font-size: 21px;
+  font-size: 18px;
   padding: 0px 7px 0px 24px;
     justify-content: space-around; 
 }
@@ -37,9 +41,9 @@ a{
     color: rgb(24, 140, 228);
     margin-top: 16px;
     font-size: 30px;
-    width: 26;
+    /* width: 26; */
 }
-button{
+.button-1 {
     font-size: 21px;
     height: 33px;
     margin-top: 13px;
@@ -53,27 +57,36 @@ button{
     margin-right: 5%;
 }
 .main-div{
-    width: 90%;
+    width: 91%;
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
-    margin-top: 11px;
+    background-color: #E6ECF0;
 }
 /* First-Box-Start */
 .first-div{
  height: 44vh;
     width: 28%;
-    border: 1px solid black;
+    background-color: #fff;
+    margin-top: 10px;
 }
 .second-div{
     width: 42%;
-    height: 79.5vh;
-    border: 1px solid black;
+    height: 68.5vh;
+    background-color: #fff;
+    margin-top: 10px;
+
 }
 .third-div{
     height: 34vh;
     width: 28%;
-    border: 1px solid black;
+    background-color: #fff;
+    margin-top: 10px;
+
+}
+hr{
+    width: 92%;
+    margin: auto;
 }
 h1{
     text-align: center;
@@ -82,6 +95,7 @@ h1{
     background: black;
     height: 104px;
     padding-top: 24px;
+    text-shadow: 0px 1px 1px;
 }
 .section{
     display: flex;
@@ -104,12 +118,18 @@ h1{
 }
 th,td{
 padding-left: 20px;
+color:#313233
+
 }
 td{
     color: rgb(24, 140, 228);
 padding-top: 10px;
 }
 /* Second-Box */
+img{
+    border-radius: 50%;
+    background-color: #E6ECF0 ;
+}
 .second-box{
     display: flex;
     margin-top: 10px;
@@ -119,7 +139,34 @@ padding-top: 10px;
     font-size: 14px;
     margin-left: 4%;
 }
-.para2
-{
-    margin: 10px;
+strong{
+    color:#000;
+}
+
+/* Third-Box */
+h3{
+    margin-top: 6px;
+    color:#313233;
+    margin-left: 10px;
+}
+.third-img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.third-line{
+    display: flex;
+}
+.third-box-para{
+    padding: 10px;
+}
+.third-box-button,button{
+    width: 65%;
+    background: white;
+    color: rgb(24, 140, 228);
+    border: 1px solid  rgb(24, 140, 228);;
+    border-radius: 14px;
+    height: 24px;
+    align-items: center;
+    margin-left: 10%;
 }
