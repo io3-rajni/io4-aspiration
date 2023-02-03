@@ -104,10 +104,21 @@ label {
   display: none;
 }
 /* main-div */
-.main-div {
-  /* display: flex; */
-}
-.first-line {
+.first-line,
+.second-line,
+.third-line {
   display: flex;
   justify-content: space-around;
+}
+/* First-line */
+.first-line {
+}
+/* Second-line */
+.second-line {
+}
+/* Third-line */
+.third-line {
+}
+/* Fourth-line */
+.fourth-line {
 }
