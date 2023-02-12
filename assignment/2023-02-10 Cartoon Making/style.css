@@ -10,6 +10,7 @@
   margin: auto;
   position: relative;
 }
+/* body */
 .body {
   height: 59vh;
   width: 25%;
@@ -17,28 +18,72 @@
   border: 1px solid black;
   top: 19%;
   left: 15%;
-  border-radius: 119px;
+  border-radius: 150px;
+  background-color: blueviolet;
 }
+/* Eye-left-right */
 .eye {
-  height: 33%;
-  width: 37%;
-  border: 1px solid black;
+  height: 29%;
+  width: 40%;
+  /* border: 1px solid black; */
   position: absolute;
   top: 20%;
-  left: 10%;
+  left: 6%;
   border-radius: 50%;
+  background-color: #8d8237d9;
 }
 .right-eye {
   left: 54%;
 }
 .layer {
-  height: 33%;
-  width: 37%;
-  border: 1px solid black;
+  height: 72%;
+  width: 80%;
+  /* border: 1px solid black; */
   position: absolute;
   top: 20%;
-  left: 10%;
+  left: 11%;
   border-radius: 50%;
+  background-color: rgb(247, 254, 252);
+}
+div {
+  width: 100%;
+  height: 48%;
+  position: absolute;
+  border: 1px solid solid beige;
+  /* border: 1px solid black; */
+  top: -1%;
+  background: #8d8237d9;
+}
+/* third-layer */
+.third-layer {
+  height: 87%;
+  width: 58%;
+
+  position: absolute;
+  top: 63%;
+  left: 21%;
+  border-radius: 50%;
+  background-color: #000;
+}
+.third {
+  width: 100%;
+  height: 48%;
+  position: absolute;
+  border: 1px solid solid beige;
+  /* border: 1px solid black; */
+  top: -1%;
+  background: #8d8237d9;
+}
+/* head-left-right-side */
+.head {
+  height: 19%;
+  width: 40%;
+  border: 1px solid black;
+  position: absolute;
+  top: 10%;
+  left: 6%;
+  border-radius: 50%;
+  background-color: rgb(135, 135, 39);
 }
 /* tree */
 .tree {
