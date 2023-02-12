@@ -1,0 +1,49 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.main-container {
+  width: 80%;
+  height: 90vh;
+  background-color: aquamarine;
+  margin: auto;
+  position: relative;
+}
+.body {
+  height: 59vh;
+  width: 25%;
+  position: absolute;
+  border: 1px solid black;
+  top: 19%;
+  left: 15%;
+  border-radius: 119px;
+}
+.eye {
+  height: 33%;
+  width: 37%;
+  border: 1px solid black;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  border-radius: 50%;
+}
+.right-eye {
+  left: 54%;
+}
+.layer {
+  height: 33%;
+  width: 37%;
+  border: 1px solid black;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  border-radius: 50%;
+}
+/* tree */
+.tree {
+  width: 80%;
+  height: 20%;
+  border: 1px solid black;
+  position: absolute;
+}
