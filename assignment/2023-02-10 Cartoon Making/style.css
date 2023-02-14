@@ -26,12 +26,12 @@
   width: 40%;
   position: absolute;
   top: 20%;
-  left: 6%;
+  left: 5%;
   border-radius: 50%;
   background-color: #a28327;
 }
 .right-eye {
-  left: 54%;
+  left: 55%;
 }
 /* Second-Section */
 .layer {
@@ -74,12 +74,12 @@
 }
 /* Nose-Section */
 .nose {
-  height: 14%;
-  width: 20%;
+  height: 12%;
+  width: 17%;
   background-color: #f8d126;
   position: absolute;
   top: 41%;
-  left: 40%;
+  left: 42%;
   border-top-right-radius: 68px;
   transform: rotate(-45deg);
 }
