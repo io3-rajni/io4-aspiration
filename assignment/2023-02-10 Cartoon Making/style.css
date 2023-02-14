@@ -5,90 +5,119 @@
 }
 .main-container {
   width: 80%;
-  height: 90vh;
-  background-color: aquamarine;
+  height: 99vh;
+  background-color: #37354d;
   margin: auto;
   position: relative;
 }
 /* body */
 .body {
-  height: 59vh;
-  width: 25%;
+  height: 70vh;
+  width: 26%;
   position: absolute;
-  border: 1px solid black;
   top: 19%;
   left: 15%;
   border-radius: 150px;
-  background-color: blueviolet;
+  background-color: #cfae69;
 }
 /* Eye-left-right */
 .eye {
-  height: 29%;
+  height: 28%;
   width: 40%;
-  /* border: 1px solid black; */
   position: absolute;
   top: 20%;
   left: 6%;
   border-radius: 50%;
-  background-color: #8d8237d9;
+  background-color: #a28327;
 }
 .right-eye {
   left: 54%;
 }
+/* Second-Section */
 .layer {
-  height: 72%;
-  width: 80%;
-  /* border: 1px solid black; */
   position: absolute;
-  top: 20%;
-  left: 11%;
+  top: 5%;
+  left: 8%;
+  height: 83%;
+  width: 85%;
   border-radius: 50%;
-  background-color: rgb(247, 254, 252);
-}
-div {
-  width: 100%;
-  height: 48%;
-  position: absolute;
-  border: 1px solid solid beige;
-  /* border: 1px solid black; */
-  top: -1%;
-  background: #8d8237d9;
+  background-image: linear-gradient(
+    180deg,
+    #8d823700 50%,
+    rgb(245, 238, 238) 50%
+  );
 }
 /* third-layer */
 .third-layer {
-  height: 87%;
-  width: 58%;
-
   position: absolute;
-  top: 63%;
-  left: 21%;
+  top: 24%;
+  left: 28%;
+  height: 43%;
+  width: 47%;
   border-radius: 50%;
-  background-color: #000;
-}
-.third {
-  width: 100%;
-  height: 48%;
-  position: absolute;
-  border: 1px solid solid beige;
-  /* border: 1px solid black; */
-  top: -1%;
-  background: #8d8237d9;
+  background-image: linear-gradient(180deg, #8d823700 50%, rgb(22, 22, 22) 50%);
 }
 /* head-left-right-side */
 .head {
-  height: 19%;
-  width: 40%;
-  border: 1px solid black;
+  height: 15%;
+  width: 5%;
   position: absolute;
-  top: 10%;
-  left: 6%;
-  border-radius: 50%;
-  background-color: rgb(135, 135, 39);
+  top: 20%;
+  left: 17%;
+  transform: skew(-1deg, 38deg);
+  background-color: #a28327;
+  box-shadow: 1px;
+}
+.right-side {
+  left: 34%;
+  transform: skew(1deg, -38deg);
+}
+/* Nose-Section */
+.nose {
+  height: 14%;
+  width: 20%;
+  background-color: #f8d126;
+  position: absolute;
+  top: 41%;
+  left: 40%;
+  border-top-right-radius: 68px;
+  transform: rotate(-45deg);
+}
+/* Hand-Section */
+.hand {
+  height: 53%;
+  width: 21%;
+  position: absolute;
+  top: 42%;
+  left: -14%;
+  background-color: #a28327;
+  z-index: 1;
+}
+.left-hand {
+  border-top-left-radius: 49px;
+  border-bottom-right-radius: 49px;
+}
+.right-hand {
+  left: 93%;
+  border-top-right-radius: 49px;
+  border-bottom-left-radius: 49px;
 }
 /* tree */
 .tree {
-  width: 80%;
-  height: 20%;
-  border: 1px solid black;
+  height: 5%;
+  width: 88%;
   position: absolute;
+  top: 77%;
+  background-color: #f4785c;
+  border-radius: 20px;
+}
+.tree-2 {
+  height: 46%;
+  width: 12%;
+  position: absolute;
+  top: -60%;
+  left: 77%;
+  background-color: #f4785c;
+  border-radius: 20px;
+  transform: rotate(139deg);
 }
