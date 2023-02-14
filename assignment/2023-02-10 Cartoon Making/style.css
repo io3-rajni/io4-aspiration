@@ -121,3 +121,16 @@
   border-radius: 20px;
   transform: rotate(139deg);
 }
+/* Paw-Section */
+.paw {
+  height: 4%;
+  width: 5%;
+  position: absolute;
+  top: 75%;
+  left: 20%;
+  background-color: #f8d126;
+  border-radius: 9px;
+}
+.right-paw {
+  left: 31%;
+}
