@@ -1,0 +1,69 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.main-container {
+}
+.navbar {
+  display: flex;
+}
+.youtube {
+  font-size: 1.5rem;
+
+  width: 27rem;
+  padding: 0.5rem 0rem 0rem 2.5rem;
+}
+sup {
+  font-size: 0.8rem;
+}
+.fa-youtube {
+  color: red;
+  font-size: 2rem;
+  padding-right: 0.2rem;
+}
+.example {
+  width: 56%;
+}
+input {
+  width: 65%;
+  height: 2.5rem;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  padding-left: 2rem;
+}
+.fa-search {
+  width: 4rem;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  padding: 20.1rem -2.9rem 9.1rem -0.5rem;
+  border: none;
+}
+button {
+  border-right: 1px solid rgb(89, 86, 86);
+  height: 2.5rem;
+  margin-left: -3rem;
+  border-radius: 0rem 1.5rem 1.5rem 0rem;
+  margin-top: 1rem;
+}
+.fa-microphone-lines {
+  height: 6rem;
+  margin-left: 3%;
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
+}
+.icon {
+  display: flex;
+  width: 17%;
+  height: 6rem;
+  font-size: 1.5rem;
+}
+.fa-bell {
+  margin-left: 2rem;
+}
+.img {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 5%;
+  border: 1px solid black;
+}
