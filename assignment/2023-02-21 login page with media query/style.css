@@ -1,0 +1,58 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+main {
+  width: 35%;
+  margin: auto;
+  background-color: aqua;
+  margin-top: 2rem;
+  height: 90vh;
+  border-radius: 0.5rem;
+}
+img {
+  width: 100%;
+  margin: auto;
+  height: 10rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.content {
+  width: 84%;
+  background-color: beige;
+  margin: auto;
+  padding-top: 2rem 2rem;
+  margin-top: 1rem;
+}
+.icon-class {
+  margin: 1rem 0rem;
+  width: 100%;
+  display: flex;
+}
+h2 {
+  width: 85%;
+}
+.icon {
+  width: 15%;
+  margin-left: 7rem;
+}
+.fa-facebook,
+.fa-twitter {
+  border: 1px solid black;
+}
+.username {
+  width: 100%;
+  height: 1.5rem;
+  margin: 0.5rem 0rem;
+}
+.input-box {
+  /* margin: 1rem 0rem; */
+  width: 100%;
+  display: flex;
+}
+.password {
+  width: 80%;
+  height: 1.5rem;
+  margin: 0.5rem 0rem;
+}

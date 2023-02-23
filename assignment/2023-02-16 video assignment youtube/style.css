@@ -7,6 +7,7 @@
 }
 .navbar {
   display: flex;
+  width: 100vw;
 }
 .youtube {
   font-size: 1.5rem;
@@ -23,7 +24,8 @@ sup {
   padding-right: 0.2rem;
 }
 .example {
-  width: 56%;
+  width: 74%;
+  margin-left: 9%;
 }
 input {
   width: 65%;
@@ -55,15 +57,20 @@ button {
 .icon {
   display: flex;
   width: 17%;
-  height: 6rem;
   font-size: 1.5rem;
+  padding-top: 1rem;
 }
 .fa-bell {
   margin-left: 2rem;
 }
 .img {
-  height: 2rem;
-  width: 2rem;
-  border-radius: 5%;
+  height: 2.2rem;
+  width: 2.2rem;
+  border-radius: 50%;
   border: 1px solid black;
+  margin-left: 1.5rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: burlywood;
+  color: aliceblue;
+  font-weight: 900;
 }
