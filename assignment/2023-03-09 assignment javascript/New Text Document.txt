@@ -1,0 +1,33 @@
+1. What is the data-type of 
+	'Italy', 
+Ans= String
+	501,
+ans= Number 
+	false,
+Ans= Boolean 
+	[23, 546, 67,8,90],
+Ans=object 
+	undefined, 
+Ans= undefined
+	null, 
+ans= object
+	{}, 
+Ans=object
+	Number(India),
+Ans= number
+	Date(),
+Ans= symbol
+	?
+Ans=error
+
+2. Find output
+	console.log("output-1", "500" + 100); Ans= 500100
+	console.log("output-2", 56 + 100);  Ans= 156
+	console.log("output-3", 56 + "100");  ans=56100
+	console.log("output-4", "500" / "100");  Ans= 5
+	console.log("output-5", 56 + 100 + true);  Ans= 156true
+	console.log("output-6", 56 + 100 + Number(true)); Ans=  156+1=157
+	console.log("output-7", 56 + 100 + "true"); Ans= 156true
+	console.log("output-8", 56 + 100 + Number("true")); ans=NAN
+	console.log("output-9", 56 + 100 + Number("Vinay")); Ans= NAN
+	console.log("output-9", 50 - "100" + "Vinay"); 50vinay
