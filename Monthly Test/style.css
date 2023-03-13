@@ -18,6 +18,9 @@ main {
 h6 {
   color: #fff;
 }
+span .plus {
+  color: #ffbb00;
+}
 .com-icon {
   margin-top: 0.5rem;
 }
@@ -49,10 +52,10 @@ select,
 }
 
 input {
-  width: 20rem;
+  width: 28rem;
 }
 .fa-search {
-  margin-left: -5rem;
+  margin-left: -6rem;
   margin-top: 0.1rem;
   color: #2874f0;
   cursor: pointer;
@@ -80,10 +83,11 @@ select {
 }
 /* Second-Navbar */
 .headings {
-  height: 2rem;
+  height: 3rem;
   background-color: #fff;
   color: #2f2f2f;
-  border-bottom: 1px solid #a5a5a5;
+  border-bottom: 1px solid #dad6d6;
+  height: 3rem;
 }
 .navbar2 {
   display: flex;
@@ -91,7 +95,11 @@ select {
   width: 80%;
   justify-content: space-evenly;
   margin-left: 7rem;
-  padding-top: 0.5rem;
+  padding-top: 0.9rem;
+  font-size: 1.2rem;
+}
+a h5 {
+  color: #2f2f2f;
 }
 h5:hover {
   color: #2874f0;
@@ -99,71 +107,136 @@ h5:hover {
 }
 /* Section-Third */
 .container {
-  width: 43rem;
+  width: 60rem;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  height: 27rem;
-  margin-top: 0.5rem;
+  height: 32rem;
   margin: auto;
-  background-color: #fff;
+  background-color: #f1f3f6;
 }
 .content1 {
-  width: 18rem;
+  margin-top: 1rem;
+  width: 25rem;
   background-color: #2874f0;
+  box-shadow: -2px 1px 1px #cfd4db;
 }
 .content2 {
-  width: 26rem;
+  margin-top: 1rem;
+  background-color: #fff;
+  width: 35rem;
+  box-shadow: 2px 1px 0px #cfd4db;
 }
 h4 {
-  font-size: 1.4rem;
-  margin: 2rem 2rem 0rem 2rem;
+  font-size: 1.6rem;
+  margin: 3rem 2rem 0rem 2rem;
   color: #fff;
 }
-p {
-  width: 14rem;
+.para {
+  width: 21rem;
   margin: auto;
-  margin-top: 1rem;
+  margin-top: 2rem;
   color: #dbd6dd;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 .login-img {
-  margin: 8rem 3rem 0rem 2rem;
+  margin: 10rem 0rem 0rem 5rem;
 }
 /* content-Second */
 .num {
-  width: 21rem;
+  width: 31rem;
   margin: auto;
   margin-top: 3rem;
 }
 .number {
-  /* width: 21rem; */
+  width: 28rem;
   border: none;
-  border-bottom: 1px solid #a5a5a5;
+  border-bottom: 1px solid #2874f0;
+  margin-left: 1rem;
 }
 .extra-div {
-  margin: -1rem 0rem 0rem 0rem;
+  margin: -1rem 0rem 0rem 1rem;
 }
 .email-num {
   color: #a5a5a5;
 }
 .term {
-  width: 21rem;
+  width: 28rem;
   margin: auto;
-  font-size: 0.7rem;
+  font-size: 1rem;
   color: #a5a5a5;
   padding-top: 2.5rem;
+  cursor: pointer;
 }
 a {
   text-decoration: none;
+  color: #2874f0;
 }
 .req-btn {
-  width: 21rem;
-  height: 2.1rem;
+  width: 28rem;
+  height: 2.9rem;
   background-color: #fb641b;
   color: #fff;
   border: none;
-  font-weight: 700;
-  margin: 0.8rem 0rem 0rem 2rem;
-  border-radius: 1px;
+  font-weight: 900;
+  margin: 1rem 0rem 0rem 3.5rem;
+  border-radius: 3px;
+}
+.last-Line {
+  margin-top: 13rem;
+  margin-left: 10rem;
+  font-size: 1.2rem;
+}
+/* Fourth-section */
+.footer {
+  height: 18rem;
+  background-color: #172337;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-right: 1px solid #878787;
+  margin-top: 1rem;
+}
+
+.footer-second-section {
+  display: flex;
+  flex-direction: row;
+  width: 25rem;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+.address,
+p.company-branch {
+  width: 10rem;
+  margin-top: 1rem;
+  padding: 0.5rem 0rem 0rem 0rem;
+  color: #fff;
+}
+h5.heading {
+  margin-top: 1.5rem;
+  color: #878787;
+}
+li {
+  color: #fff;
+  list-style-type: none;
+  padding: 0.5rem 0rem 0rem 0rem;
+}
+.border {
+  border-right: 1px solid #878787;
+  height: 14rem;
+  /* margin-top: 1rem; */
+  width: 11rem;
+}
+/* Second-Footer */
+.last-line {
+  display: flex;
+  flex-direction: row;
+  background-color: #172337;
+  height: 4rem;
+  border-top: 1px solid white;
+  color: #cfd4db;
+  justify-content: space-evenly;
+  font-size: 1.1rem;
+  padding-top: 1rem;
+  cursor: pointer;
 }
