@@ -108,18 +108,21 @@ a img {
 /* third-Section */
 .slider-img {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   overflow: hidden;
+}
+.first-img {
+  height: 10vw;
 }
 .first-img .second-img .third-img {
   animation: myMove 5s infinite;
 }
 @keyframes myMove {
   from {
-    width: 0%;
+    left: 0%;
   }
   to {
-    width: 100%;
+    right: 100%;
   }
 }
 .second-img .third-img {
@@ -127,10 +130,10 @@ a img {
 }
 @keyframes myMove1 {
   from {
-    width: 0%;
+    left: 0%;
   }
   to {
-    width: 100%;
+    right: 100%;
   }
 }
 /* Third-section */
@@ -153,7 +156,7 @@ a img {
   background-color: #fff;
   height: 22rem;
   padding: 1rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   width: 100%;
 }
 h1 {
@@ -162,7 +165,7 @@ h1 {
   color: rgb(34, 32, 32);
 }
 .view-all {
-  width: 17rem;
+  width: 12rem;
   margin-left: 5.5rem;
 }
 .view-all button {
@@ -189,6 +192,9 @@ h1 {
   display: flex;
   justify-content: space-evenly;
 }
+.card-1 {
+  width: 13rem;
+}
 .card-img img {
   height: 14rem;
   width: 12rem;
@@ -210,6 +216,46 @@ h1 {
   padding-left: 2rem;
   padding-top: 0.5rem;
 }
-.card-img-5 {
-  width: 10rem;
+.card-img-1,
+.card-img-2 {
+  margin-left: 2rem;
 }
+.card-img-3:hover {
+  width: 9rem;
+  cursor: pointer;
+  margin: auto;
+}
+.card-img-2:hover {
+  width: 8rem;
+  cursor: pointer;
+}
+.card-img:hover {
+  width: 9rem;
+  cursor: pointer;
+  margin: auto;
+}
+.card-img-1:hover {
+  width: 9rem;
+  cursor: pointer;
+}
+.card-img-4 {
+  width: 12rem;
+  height: 20rem;
+}
+/* Fifth-Section */
+.cards {
+  width: 82vw;
+}
+.para h1 {
+  width: 18cqwvw;
+  padding: 5rem 1rem 0rem 1rem;
+}
+/* .fifth-section {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  height: 22rem;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  width: 100%;
+} */
