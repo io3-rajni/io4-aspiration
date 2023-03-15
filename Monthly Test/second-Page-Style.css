@@ -194,6 +194,7 @@ h1 {
 }
 .card-1 {
   width: 13rem;
+  height: 56vh;
 }
 .card-img img {
   height: 14rem;
@@ -244,12 +245,40 @@ h1 {
 }
 /* Fifth-Section */
 .cards {
-  width: 82vw;
+  /* width: 82vw; */
 }
 .para h1 {
-  width: 18cqwvw;
+  width: 18vw;
   padding: 5rem 1rem 0rem 1rem;
 }
+.card-img-33 {
+  width: 9rem;
+  height: 35vh;
+  margin-left: 2rem;
+}
+.card-img-33:hover {
+  width: 8rem;
+  cursor: pointer;
+  height: 28vh;
+}
+.card-img-44 {
+  width: 9rem;
+  height: 35vh;
+  margin-left: 1rem;
+}
+.card-img-44:hover {
+  width: 8rem;
+  cursor: pointer;
+  height: 28vh;
+}
+.brands h4 {
+  width: 13vw;
+  padding-left: 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin-left: 1rem;
+}
+
 /* .fifth-section {
   display: flex;
   flex-direction: row;
