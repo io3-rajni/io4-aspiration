@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javascript3</title>
+  </head>
+  <body>
+    <!-- 3. Write a program to calculate average of 5 subject entered using keyboard -->
+
+    <script>
+      const eng = Number(prompt(`enter english marks`));
+      const phy = Number(prompt(`enter physics marks`));
+      const math = Number(prompt(`enter maths marks`));
+      const chem = Number(prompt(`enter chemistry marks`));
+      const com = Number(prompt(`enter computer marks`));
+      function addSubject({
+        english = 0,
+        physics = 0,
+        maths = 0,
+        chemistry = 0,
+        computer = 0,
+      }) {
+        const total = english + physics + maths + chemistry + computer;
+        console.log(
+          `I got marks in English ${english},Physics${physics},Maths${maths},Chemistry${chemistry}and Computer${computer} and total marks are ${total}`
+        );
+      }
+      toFindAvg({ sum: total, sub: 5 });
+      function toFindAvg({ sum = 500, sub = 5 }) {
+        const avg = sum / sub;
+        console.log(`average of 5 Subject is ${avg}`);
+      }
+      addSubject({
+        english: eng,
+        physics: phy,
+        maths: math,
+        chemistry: chem,
+        computer: com,
+      });
+    </script>
+  </body>
+</html>
