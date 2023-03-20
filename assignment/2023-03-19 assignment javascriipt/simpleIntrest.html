@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    // 6. Write a function to calculate simple interest.
+    <script>
+      /**
+       * @description Function to get student data
+       * @param {Number} number0
+       * @param {Number} number1
+       * @param {Number} number2
+       * @param {Number} number3
+       * @param {Number} number4
+       * @param {Number} number5
+       * @param {Number} number6
+       * @param {Number} number7
+       * @param {Number} number8
+       * @param {Number} number9
+       *
+       */
+      const pr = Number(prompt(`Enter Principal Amount`));
+      const rate = Number(prompt(`Enter RateOf Interest`));
+      const t = Number(prompt(`Enter Time`));
+      function interest(principalAmount, rateOfInterest, time) {
+        const pr = principalAmount;
+        console.log(`Principal Amount is -->${pr}`);
+        const rate = rateOfInterest;
+        console.log(`Rate Of Interest Amount is -->${rate}`);
+        const t = time;
+        console.log(`time is ${t}`);
+        const simpleInterest = (principalAmount * rateOfInterest * time) / 100;
+        console.log(`Total Interest Is-->${simpleInterest}`);
+      }
+      interest(pr, rate, t);
+    </script>
+  </body>
+</html>

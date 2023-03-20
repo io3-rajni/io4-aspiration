@@ -4,13 +4,17 @@
   box-sizing: border-box;
 }
 section {
+  background-color: #f5f6f7;
+}
+.section {
   display: flex;
-  padding-top: 1rem;
+  height: 3rem;
+  width: 100%;
 }
 .content {
   justify-content: space-between;
   display: flex;
-  width: 85%;
+  width: 76%;
 }
 .navbar {
   margin-left: 3rem;
@@ -19,9 +23,79 @@ section {
   margin-left: 1rem;
 }
 .nav1 {
-  /* margin-left: -25rem; */
   font-size: 1rem;
 }
 .navbar-brand {
   font-size: 1rem;
+}
+.btn-1 {
+  width: 19rem;
+  padding-top: 0.3rem;
+}
+.btn-login {
+  width: 9rem;
+  box-shadow: 1px 1px 1px 0px grey;
+}
+.display-img {
+  background-image: url("./assest/image.svg");
+  background-repeat: no-repeat;
+  height: 319px;
+}
+.btn-class {
+  padding: 3.5rem 5rem;
+}
+.img-heading {
+  width: 17rem;
+  color: #fff;
+}
+input,
+.enter_phn_num {
+  font-size: 0.6rem;
+  width: 14rem;
+  height: 1.9rem;
+  padding-left: 0.4rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.1rem;
+}
+.enter_phn_num:hover {
+  border: none;
+}
+.btn-selling,
+.Start-selling {
+  width: 9rem;
+  color: black;
+  background-color: #ffcc00;
+  box-shadow: 1px 1px 1px 0px grey;
+}
+/* Cards */
+.three-card {
+  width: 86%;
+}
+
+.card {
+  border: none;
+  background-color: #f5f6f7;
+  cursor: pointer;
+}
+.card-body {
+  padding: 1rem 0rem;
+  font-size: 0.8rem;
+}
+/* Fourth-Section */
+.title {
+  width: 85%;
+  margin: auto;
+  margin-left: 10rem;
+}
+.nav-link {
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: black;
+}
+/* <!-- Sixth-section -- >  */
+.shopsy-1 {
+  background-color: #f5f6f7;
+  border-top: 1px solid grey;
 }

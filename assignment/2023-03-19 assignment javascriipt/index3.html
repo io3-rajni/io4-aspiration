@@ -10,6 +10,16 @@
     <!-- 3. Write a program to calculate average of 5 subject entered using keyboard -->
 
     <script>
+      /**
+       * @description Function to get student data
+       * @param {Number} english ;
+       * @param {Number} physics
+       * @param {Number} maths
+       * @param {Number} chemistry
+       * @param {Number}  computer;
+       *
+       */
+
       const eng = Number(prompt(`enter english marks`));
       const phy = Number(prompt(`enter physics marks`));
       const math = Number(prompt(`enter maths marks`));
@@ -27,8 +37,8 @@
           `I got marks in English ${english},Physics${physics},Maths${maths},Chemistry${chemistry}and Computer${computer} and total marks are ${total}`
         );
       }
-      toFindAvg({ sum: total, sub: 5 });
-      function toFindAvg({ sum = 500, sub = 5 }) {
+      toFindAvg({ total, sub });
+      function toFindAvg({ total = 500, sub = 5 }) {
         const avg = sum / sub;
         console.log(`average of 5 Subject is ${avg}`);
       }
