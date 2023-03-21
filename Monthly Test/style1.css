@@ -80,7 +80,7 @@ input,
   cursor: pointer;
 }
 .card-body {
-  padding: 1rem 0rem;
+  padding: 0rem 1rem;
   font-size: 0.8rem;
 }
 /* Fourth-Section */
@@ -94,8 +94,29 @@ input,
   font-size: 1.2rem;
   color: black;
 }
+.span1,
+.span2 {
+  font-size: 0.7rem;
+}
 /* <!-- Sixth-section -- >  */
 .shopsy-1 {
   background-color: #f5f6f7;
   border-top: 1px solid grey;
+}
+/* Seventh-section */
+.card-head {
+  border: 2px solid #ded9d9;
+  border-radius: 1rem;
+  height: 15rem;
+  box-shadow: 0rem 0rem 0.3rem 0rem;
+}
+.yellow-btn {
+  /* display: flex; */
+}
+.btn-one {
+  width: 9rem;
+  height: 2rem;
+  color: black;
+  background-color: #ffcc00;
+  box-shadow: 0px 0px 2px 0px grey;
 }

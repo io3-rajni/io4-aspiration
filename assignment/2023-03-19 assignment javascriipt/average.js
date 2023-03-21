@@ -33,12 +33,21 @@ function findAverage(
   num9,
   num10
 ) {
-  const total = Number(
-    num1 + num2 + num3 + num4 + num6 + num7 + num8 + num9 + num10
-  );
+  const total =
+    num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10;
   console.log(`Sum Of all this Number---> ${total}`);
   const average = total / 10;
-  console.log(`Average Of all 10 Number -->${average}`);
+  console.log(`Average Of all 10 Number --> ${average}`);
 }
-
-findAverage(first, second, third, fourth, sixth, seventh, eighth, ninth, tenth);
+findAverage(
+  first,
+  second,
+  third,
+  fourth,
+  fifth,
+  sixth,
+  seventh,
+  eighth,
+  ninth,
+  tenth
+);
