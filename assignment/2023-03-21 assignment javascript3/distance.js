@@ -1,5 +1,3 @@
 /**
- * 3. Write a program to receive values of latitude and longitude,
- * in degrees, of two places on the earth and outputs the distance between
- * then in nautical miles. The formula for distance in nautical miles is here
- */
+ * 3. 
+ * Daily class code/2023-03-17 js-9 relational operators/index.html
