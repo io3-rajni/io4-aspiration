@@ -1,5 +1,5 @@
 // alert(`--------`);
-// If lengths of three sides of a triangle are input through the
+//1. If lengths of three sides of a triangle are input through the
 // keyboard, write a program to find the area of the triangle.
 // const a = Number(prompt(`Enter First Side`));
 // const b = Number(prompt(`Enter Second Side`));
@@ -29,6 +29,30 @@ function calculate(s1, s2, s3, s4, s5) {
 }
 // calculate(first, Second, Third, Fourth, fifth);
 
+// 3.  if a five-digit number is input through the keyboard,
+// program to reverse the number.
+
+const num = prompt(`Enter any number`);
+console.log(`Enter Number ${num}`);
+function rev(num) {
+  return String(num).split("").reverse().join("");
+}
+console.log(`Reversed integer ${Number(rev(num))}`);
+
+// ‘If lengths of three sides of a triangle are input through the
+// keyboard, write a program to find the area of the triangle.
+
+const first = Number(prompt(`Enter first side `));
+const second = Number(prompt(`Enter second side `));
+const third = Number(prompt(`Enter third side `));
+function areaOfTriangle(s1, s2, s3) {
+  let area = (s1 + s2 + s3) / 2;
+  console.log(`three side of triangle ${area}`);
+  const findArea = Math.sqrt(area * (area - s1) * (area - s2) * (area - s3));
+  console.log(`Area of triangle----> ${findArea}`);
+}
+areaOfTriangle(first, second, third);
+
 /**
  * 5. In a company if an employee is paid as under:
  * If his basic salary is less than Rs. 1500,
@@ -39,7 +63,7 @@ function calculate(s1, s2, s3, s4, s5) {
  *  write a program to find his gross salary.
  */
 
-const salary = Number(prompt(`Enter basic Salary`));
+// const salary = Number(prompt(`Enter basic Salary`));
 function findGrossSalary(bs) {
   if (bs < 1500) {
     console.log(`Basic salary is----> ${bs}`);
@@ -59,7 +83,7 @@ function findGrossSalary(bs) {
     console.log(`Gross salary is--->${gs} `);
   }
 }
-findGrossSalary(salary);
+// findGrossSalary(salary);
 /**
  * 6.if cost price and selling price of an item are input through the keyboard,
  * write a program to determine whether the seller has made profit of incurred loss.
@@ -134,14 +158,15 @@ function ageFind(ram = "", shyam = "", ajay = "") {
 /**
  * 12. Write a program to find the absolute value of a number entered through the keyboard
  */
-const val = Number(prompt(`enter any first number`));
-console.log(`First number is ${val}`);
-const val1 = Number(prompt(`enter  any second number`));
-console.log(`Second number is ${val1}`);
+
+// const val = Number(prompt(`enter any first number`));
+// console.log(`First number is ${val}`);
+// const val1 = Number(prompt(`enter  any second number`));
+// console.log(`Second number is ${val1}`);
 
 function absolute(num1, num2) {
   const find = Math.abs(num1 * num2);
 
   console.log(` Absolute value is---> ${find}`);
 }
-absolute(val, val1);
+// absolute(val, val1);
