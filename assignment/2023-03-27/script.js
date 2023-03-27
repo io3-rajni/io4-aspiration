@@ -20,6 +20,8 @@ function dayOfWeek(d) {
       return "Thursday";
     case 6:
       return "Friday";
+    case 7:
+      return "Saturday";
     default:
       return "enter valid day";
   }
