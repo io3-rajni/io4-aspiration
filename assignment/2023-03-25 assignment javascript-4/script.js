@@ -72,6 +72,7 @@ function profitLoss(sp, cp) {
   if (sp > cp) {
     const profit = sp - cp;
     console.log(`Profit is---->${profit}`);
+    oy;
   } else if (sp < cp) {
     const loss = cp - sp;
     console.log(`loss is---->${loss}`);
