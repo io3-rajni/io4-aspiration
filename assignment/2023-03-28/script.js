@@ -13,13 +13,14 @@
 // if (i % 4 === 0) console.log(`leap year ${i}`);
 // }
 //next program
-const year = Number(prompt(`year start`));
-const year1 = Number(prompt(`year  end`));
-for (let i = year; i <= year1; i++) {
-  if (i % 4 == 0) {
-    console.log(`Find leap Year${i}`);
-  }
-  for (let i =0; i <= .length(); i++) {
-    console.log(`Find lengthYear${i}`);
-  }
-}
+// const year = Number(prompt(`year start`));
+// const year1 = Number(prompt(`year  end`));
+// for (let i = year; i <= year1; i++) {
+// if (i % 4 == 0) {
+// console.log(`Find leap Year${i}`);
+// }
+// }
+const name = "rajni maurya";
+const res = name.split("");
+const res1 = name.index("");
+console.log("res", res, res1);
