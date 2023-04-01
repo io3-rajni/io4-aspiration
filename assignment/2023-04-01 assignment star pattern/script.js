@@ -88,11 +88,32 @@ for (let i = 1; i <= 5; i++) {
 document.write(`8. eight Star Pattern`);
 document.write(`<br/>`);
 for (let i = 1; i <= 5; i++) {
-  for (let j = 1; j <= 5; j++) {
+  for (let j = 1; j <= i; j++) {
     document.write(`&nbsp &nbsp`);
   }
   for (let k = 5; k >= i; k--) {
-    document.write(`* &nbsp`);
+    document.write(`* &nbsp &nbsp`);
+  }
+  document.write(`<br/>`);
+}
+
+document.write(`9. Ninth Star Pattern`);
+document.write(`<br/>`);
+for (let i = 1; i <= 5; i++) {
+  for (let j = 4; j >= i; j--) {
+    document.write(` &nbsp &nbsp`);
+  }
+  for (let k = 1; k <= i; k++) {
+    document.write(` * &nbsp &nbsp`);
+  }
+  document.write(`<br/>`);
+}
+for (let i = 1; i <= 4; i++) {
+  for (let j = 1; j <= i; j++) {
+    document.write(`&nbsp &nbsp`);
+  }
+  for (let k = 4; k >= i; k--) {
+    document.write(`*&nbsp &nbsp &nbsp`);
   }
   document.write(`<br/>`);
 }
