@@ -117,3 +117,16 @@ for (let i = 1; i <= 4; i++) {
   }
   document.write(`<br/>`);
 }
+document.write(`10. Tenth Star Pattern`);
+document.write(`<br/>`);
+
+for (let i = 1; i <= 5; i++) {
+  for (let j = 1; j <= i; j++) {
+    if (j == 1 || i == 5 || i == j) {
+      document.write("* ");
+    } else {
+      document.write("&nbsp;&nbsp;&nbsp;");
+    }
+  }
+  document.write("<br />");
+}
