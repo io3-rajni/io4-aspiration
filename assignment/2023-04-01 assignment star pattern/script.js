@@ -130,3 +130,42 @@ for (let i = 1; i <= 5; i++) {
   }
   document.write("<br />");
 }
+document.write(`11. Eleventh Star Pattern`);
+document.write(`<br/>`);
+for (let i = 1; i <= 4; i++) {
+  for (let j = 1; j <= 7; j++) {
+    if (j + i == 5 || j - i == 3 || i == 4) {
+      document.write(`*`);
+    } else {
+      document.write(`&nbsp &nbsp`);
+    }
+  }
+  document.write("<br />");
+}
+document.write(`12. Twelve Star Pattern`);
+document.write(`<br/>`);
+for (let i = 1; i <= 4; i++) {
+  for (let j = 5; j >= 1; j--) {
+    if (j - i == 1 || j - i == 2 || i == 4) {
+      document.write(`*`);
+    } else {
+      document.write(`&nbsp &nbsp`);
+    }
+  }
+  document.write("<br />");
+}
+
+document.write(`13. Thirteen Star Pattern`);
+document.write(`<br/>`);
+
+for (let i = 1; i <= 5; i++) {
+  for (let j = 1; j <= i; j++) {
+    if (j == i || j == 6 - i) {
+      document.write(`*`);
+    }
+    if (j == i || j == 6 - 1) {
+      document.write(`&nbsp &nbsp `);
+    }
+  }
+  document.write(`<br/>`);
+}
