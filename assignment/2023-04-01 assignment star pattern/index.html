@@ -8,5 +8,27 @@
   </head>
   <body>
     <script src="script.js"></script>
+    <script>
+      const arr = [
+        "h",
+        "e",
+        "l",
+        "l",
+        "o",
+        2,
+        4,
+        6,
+        8,
+        "eat",
+        "sleep",
+        "exercise",
+      ];
+      // console.log(arr.length);
+      const string = arr.filter(
+        (num) => typeof num == "string" && num.length > 1
+      );
+
+      console.log(string);
+    </script>
   </body>
 </html>
