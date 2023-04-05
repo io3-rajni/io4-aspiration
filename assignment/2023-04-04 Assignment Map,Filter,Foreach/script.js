@@ -47,8 +47,14 @@ const string = words.filter((str) => typeof str == "string" && str.length <= 8);
 console.log(string);
 
 //5. Double the value of elements inside the array
-const a. [ 1, 4, 9, 16, 25 ]
-// b. [ 21, 0.4, 9, -1.6, 125 
+const arr1 = [1, 4, 9, 16, 25];
+const arr2 = [21, 0.4, 9, -1.6, 125];
+const arr3 = arr1.concat(arr2);
+console.log(`Concat array----> ${arr3}`);
+arr3.map((find) => {
+  const output = find * 2;
+  console.log(`Double Value---->${output}`);
+});
 
 // 7. Find the leap year inside the array and create two arrays 1. with
 // all leap years and 2. array without leap year
@@ -64,7 +70,20 @@ b.forEach(function (leapYear) {
     console.log(`Is not a Leap Year ${leapYear}`);
   }
 });
+// 9. Given an array of numbers, return a new array that has only the numbers that are 5 or
+// greater.
+const array = [21, 0.4, 9, -1.6, 12, 5, 81, 94, -9];
+const emptyArray = [];
 
+const numbers1 = (array1) => {
+  if (array1 >= 5) {
+    const emptyArray = array.push == emptyArray;
+    // emptyArray = emptyArray <= array1;
+    // console.log(emptyArray[1]);
+  }
+  console.log(emptyArray);
+};
+numbers1(array);
 // 14. Square and sum the array elements using the arrow function and then find the
 // average of the array.
 let num = [25, 45, 55, 77, 88, 99];
