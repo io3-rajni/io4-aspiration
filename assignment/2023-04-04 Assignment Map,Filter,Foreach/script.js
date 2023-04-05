@@ -16,12 +16,39 @@ console.log(numbers);
 // a. Example :
 // input:const input = [ 1, -4, 12, 0, -3, 29, -150];
 // Output: 42
+const input = [1, -4, 12, 0, -3, 29, -150];
+let add = 0;
+input.forEach((num) => {
+  if (num > 0) {
+    add = add + num;
+  }
+});
+console.log(`Positive Numbers---> ${add}`);
+
+// 3. Find the factorial of
+// a. 3
+// b. 5
+// c. 4
+// d. 10
+const a1 = 5;
+let factorial = 1;
+const factor = (fac) => {
+  for (let i = fac; i >= 1; i--) {
+    factorial = factorial * i;
+  }
+};
+factor(a1);
+console.log(`factorial---->${factorial}`);
 
 // 4. The following example, which filters out any string which is less than 8
 // characters
 const words = ["Python", "Javascript", "Go", "Java", "PHP", "Ruby"];
 const string = words.filter((str) => typeof str == "string" && str.length <= 8);
 console.log(string);
+
+//5. Double the value of elements inside the array
+const a. [ 1, 4, 9, 16, 25 ]
+// b. [ 21, 0.4, 9, -1.6, 125 
 
 // 7. Find the leap year inside the array and create two arrays 1. with
 // all leap years and 2. array without leap year
