@@ -73,22 +73,79 @@ b.forEach(function (leapYear) {
 // 9. Given an array of numbers, return a new array that has only the numbers that are 5 or
 // greater.
 const array = [21, 0.4, 9, -1.6, 12, 5, 81, 94, -9];
-const emptyArray = newArray();
-
-const numbers1 = (array1) => {
-  if (array1 >= 5) {
-    const emptyArray = array.push == emptyArray;
-    // emptyArray = emptyArray <= array1;
-    // console.log(emptyArray[1]);
+const emptyArray = [];
+array.forEach((ele, ind) => {
+  if (ele >= 5) {
+    emptyArray.push(ind);
   }
-  console.log(emptyArray);
-};
-numbers1(array);
+});
+console.log(emptyArray);
+
+// 10. Given an array of numbers, return a new array that only includes the even numbers.
+const evenNumber = [20, 1.4, 92, -1.61, 1.22, 50, 81, 94, -9];
+const newArr = [];
+evenNumber.forEach((ele) => {
+  if (ele % 2 === 0) {
+    newArr.push(ele);
+  }
+});
+console.log("Even Number---->", newArr);
+
+// 11. Given an array of strings, return a new array that only includes those that are 5
+// characters or fewer in length
+const arrFirst = ["dog", "wolf", "by", "family", "eaten", "camping"];
+const arrSecond = [
+  "Python",
+  "Javascript",
+  "Go",
+  "Java",
+  "PHP",
+  "C++",
+  "React",
+  "RoR",
+  "Ruby",
+  "Swift",
+  "Kotlin",
+  "LISP",
+];
+const arrThird = arrFirst.concat(arrSecond);
+console.log(arrThird);
+const arrRes = arrThird.filter(
+  (str) => typeof str == "string" && str.length >= 5
+);
+console.log("New Array --->", arrRes);
+
+// 12. Define a function called cleanNames that accepts an array of strings containing
+// additional space characters at the beginning and end. The cleanNames() function
+// should use the array map method to return a new array full of trimmed names. For
+// example:
+// b. Output:->
+// ["avengers", "captain_america", "ironman", "black panther"
+const cleanNames = [
+  " avengers",
+  " captain_america",
+  "ironman ",
+  " black panther ",
+];
+const Clear = cleanNames.Map((val)=>
+
+// console.log(Clear);
+);
+
+
 // 14. Square and sum the array elements using the arrow function and then find the
 // average of the array.
 let num = [25, 45, 55, 77, 88, 99];
-
-const number = num.filter((num) => typeof num.length == "number" && num++);
-{
+// const add1 = 0;
+// const number = (num) => {
+for (let i = 1; i < num.length; i++) {
+  // add1.push = num + i;
+}
+// };
+// console.log(num[i]);
+// console.log(add1);
+for (var i = 0; i < num.length; i++) {
   console.log(num);
+  const add = [num + num];
+  console.log(add);
 }
