@@ -73,7 +73,7 @@ b.forEach(function (leapYear) {
 // 9. Given an array of numbers, return a new array that has only the numbers that are 5 or
 // greater.
 const array = [21, 0.4, 9, -1.6, 12, 5, 81, 94, -9];
-const emptyArray = [];
+const emptyArray = newArray();
 
 const numbers1 = (array1) => {
   if (array1 >= 5) {
