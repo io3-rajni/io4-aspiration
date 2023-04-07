@@ -149,12 +149,18 @@ console.log(res);
 let num = [25, 45, 55, 77, 88, 99];
 let add1 = 0;
 console.log("Length--->", num.length);
-const number = (num) => {
-  for (let i = 0; i < num.length; i++) {
-    add1 = num[i] + add1;
-  }
-  let avg = add1 / num.length;
-  console.log(avg.toFixed(1));
-};
+
+// let square = Math.sqrt([num] * [num]);
+// console.log(square);
+// const number = (num) => {
+for (let i = 0; i < num.length; i++)
+  return num.map(function (x) {
+    return Math.pow(x, 2);
+  });
+//     add1 = num[i] + add1;
+//   }
+//   let avg = add1 / num.length;
+//   console.log(avg.toFixed(1));
+// };
 number(num);
-console.log(add1);
+// console.log(add1);
