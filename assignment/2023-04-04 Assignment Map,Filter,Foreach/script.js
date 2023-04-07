@@ -121,31 +121,40 @@ console.log("New Array --->", arrRes);
 // example:
 // b. Output:->
 // ["avengers", "captain_america", "ironman", "black panther"
-const cleanNames = [
+const cleanNamesArr = [
   " avengers",
   " captain_america",
   "ironman ",
   " black panther ",
 ];
-const Clear = cleanNames.Map((val)=>
+let join;
+let res = [];
+const cleanNames = (cleanNamesArr) => {
+  cleanNamesArr.map((ele, idx) => {
+    join = ele.trim();
+    res.push(join);
+  });
+};
+cleanNames(cleanNamesArr);
+console.log(res);
 
+// console.log(join);
+// const Clear = cleanNames.map((val)=>
+
+// );
 // console.log(Clear);
-);
-
 
 // 14. Square and sum the array elements using the arrow function and then find the
 // average of the array.
 let num = [25, 45, 55, 77, 88, 99];
-// const add1 = 0;
-// const number = (num) => {
-for (let i = 1; i < num.length; i++) {
-  // add1.push = num + i;
-}
-// };
-// console.log(num[i]);
-// console.log(add1);
-for (var i = 0; i < num.length; i++) {
-  console.log(num);
-  const add = [num + num];
-  console.log(add);
-}
+let add1 = 0;
+console.log("Length--->", num.length);
+const number = (num) => {
+  for (let i = 0; i < num.length; i++) {
+    add1 = num[i] + add1;
+  }
+  let avg = add1 / num.length;
+  console.log(avg.toFixed(1));
+};
+number(num);
+console.log(add1);
