@@ -138,29 +138,41 @@ const cleanNames = (cleanNamesArr) => {
 cleanNames(cleanNamesArr);
 console.log(res);
 
-// console.log(join);
-// const Clear = cleanNames.map((val)=>
+// 13. Write a function that converts an array of values from miles to kilometers using the
+// map method. In the end, add the kilometers up in a new variable called
+// "totalDistanceInKilometers" and return this variable.
+const miles = [1, 2, 3, 4, 5, 6];
+let km = [];
+totalDistanceInKilometers = [];
+const convertMilesToKilometers = (ele, inx) => {
+  miles.map((item, inx) => {
+    km.push(item / 0.6213711922);
 
-// );
-// console.log(Clear);
+    totalDistanceInKilometers.push(km * 2);
+  });
+};
+convertMilesToKilometers();
+console.log(" Kilometers--->", totalDistanceInKilometers);
+console.log("Converts Miles To Kilometers", km);
 
 // 14. Square and sum the array elements using the arrow function and then find the
 // average of the array.
 let num = [25, 45, 55, 77, 88, 99];
 let add1 = 0;
+let avg = 0;
+let push1 = [];
 console.log("Length--->", num.length);
 
-// let square = Math.sqrt([num] * [num]);
-// console.log(square);
-// const number = (num) => {
-for (let i = 0; i < num.length; i++)
-  return num.map(function (x) {
-    return Math.pow(x, 2);
+const number = (num) => {
+  num.map((item, i) => {
+    add1 = add1 + item * item;
+    push1.push(item * item);
+    return add1;
   });
-//     add1 = num[i] + add1;
-//   }
-//   let avg = add1 / num.length;
-//   console.log(avg.toFixed(1));
-// };
+
+  avg = add1 / num.length;
+};
 number(num);
-// console.log(add1);
+console.log("Push--->", push1);
+console.log("Addition--->", add1);
+console.log("Average--->", avg.toFixed(1));
