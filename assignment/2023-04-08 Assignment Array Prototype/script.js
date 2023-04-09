@@ -80,8 +80,65 @@ const sort4 = five.sort();
 console.log("Sort--->", sort, sort1, sort2, sort3, sort4);
 
 // 7. Reverse the following arrays.
-const rev= [210, 'Sunday', 702, true, null, '90', 'vinay', 'CAT']
-b. =[ 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday' ]
-c. =['z','i','a','x','k','s']
-d. =[115, 54, 101, -52, -10, 0.56, 5, 12, 8, 130, 44]
-e. =['shoes', 'shirts', 'socks', 'sweaters']
+const rev = [210, "Sunday", 702, true, null, "90", "vinay", "CAT"];
+const rev1 = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
+const rev3 = ["z", "i", "a", "x", "k", "s"];
+const rev4 = [115, 54, 101, -52, -10, 0.56, 5, 12, 8, 130, 44];
+const rev5 = ["shoes", "shirts", "socks", "sweaters"];
+const res = rev.reverse();
+const res1 = rev.reverse();
+const res2 = rev.reverse();
+const res3 = rev.reverse();
+const res4 = rev.reverse();
+const res5 = rev.reverse();
+
+console.log("Reverse Method-->", res, res2, res3, res4, res5);
+
+// 8. Find the index in the following arrays.
+const first1 = [210, "Sunday", 702, true, null, "90", "vinay", "CAT"]; //find index of (90, true, ‘Ajay’)
+console.log("First Find Index-->", first1.indexOf(true));
+console.log("First Find Index-->", first1.indexOf("90"));
+console.log("First Find Index-->", first1.indexOf("ajay"));
+
+let second2 = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
+console.log("Second Find Index-->", second2.indexOf("Tuesday"));
+console.log("Second Find Index-->", second2.indexOf("Thursday"));
+console.log("Second Find Index-->", second2.indexOf("Sunday"));
+console.log("Second Find Index-->", second2.indexOf("monday"));
+
+// find
+// index of (‘Thursday’, ‘TuesDay, ‘sunday’, Monday)
+let third3 = ["z", "i", "a", "x", "k", "s"]; //find index of (‘k’, ‘t’, ‘a’)
+console.log("third Find Index-->", third3.indexOf("k"));
+console.log("third Find Index-->", third3.indexOf("t"));
+console.log("third Find Index-->", third3.indexOf("a"));
+
+let fourth4 = [115, 54, 101, -52, -10, 0.56, 5, 12, 8, 130, 44]; //find index of (90, -52,0.56)
+console.log("Fourth Find Index-->", fourth4.indexOf("90"));
+console.log("Fourth Find Index-->", fourth4.indexOf(-52));
+console.log("Fourth Find Index-->", fourth4.indexOf(0.56));
+
+let fifth5 = ["shoes", "shirts", "socks", "sweaters"]; //find index of(‘shoes’,’socks’,‘Sweaters’)
+console.log(
+  "Fifth Find Index-->",
+  fifth5.indexOf("shoes"),
+  fourth4.indexOf(0.56)
+);
+console.log("Fifth Find Index-->", fifth5.indexOf("socks"));
+console.log("Fifth Find Index-->", fifth5.indexOf("Sweaters"));
