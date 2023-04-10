@@ -142,3 +142,21 @@ console.log(
 );
 console.log("Fifth Find Index-->", fifth5.indexOf("socks"));
 console.log("Fifth Find Index-->", fifth5.indexOf("Sweaters"));
+
+// 9. Find the last index in the following arrays.
+const lastIdx = [210, "Sunday", 702, true, null, "90", "vinay", "CAT"]; //find last index of (‘vinay’, null,‘Ajay’
+console.log(`find last Index-->`, lastIdx.lastIndexOf(210));
+console.log(`find last Index-->`, lastIdx.lastIndexOf(null));
+
+const lastIdx1 = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+]; //findlast index of (‘Tuesday’, ‘TuesDay, ‘sunday’, Wednesday)
+const lastIdx2 = ["z", "i", "a", "x", "k", "s"]; //find last index of (‘k’, ‘t’, ‘z’)
+const lastIdx3 = [115, 54, 101, -52, -10, 0.56, 5, 12, 8, 130, 44]; //find last index of (115,54,0.56, 81)
+const lastIdx4 = ["shoes", "shirts", "socks", "sweaters"]; //find index of (‘shoes,socks’,‘Sweaters’)
