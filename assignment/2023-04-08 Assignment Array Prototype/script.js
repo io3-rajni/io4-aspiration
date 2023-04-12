@@ -204,7 +204,7 @@ const findIndex = (array) => {
       case e > 11:
         newVar = e;
         //  newVar;
-        return newVar.push(e);
+        newVar.push(e);
         break;
       default:
         return 0;
@@ -239,3 +239,91 @@ isIncludes(includes1, 8);
 isIncludes(includes1, "10");
 isIncludes(includes1, 100 + 1);
 isIncludes(includes1, 10 - 5);
+
+// 12. Please Insert the element at end of array
+const insert1 = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+]; // (insert‘Funday’)
+
+const insert2 = [101, -52, -10, 0.56, 5];
+const insert = [];
+//insert → (15, 8, 10+1)
+const insertElement = (
+  ele,
+  includeElement,
+  includeElement1,
+  includeElement2
+) => {
+  ele.push(includeElement, includeElement1, includeElement2);
+  console.log(ele);
+};
+insertElement(insert1, "Funday");
+insertElement(insert2, 15, 8, 10 + 1);
+
+// 13. Please remove the element from end of array
+const remove = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
+//(remove ‘Saturday’)
+const remove1 = [101, -52, -10, 0.56, 5]; //remove → (5, 0.56)
+const removeElement = (ele1, removeEle, removeEle1) => {
+  ele1.pop(removeEle);
+  ele1.pop(removeEle1);
+
+  console.log(ele1);
+};
+removeElement(remove);
+removeElement(remove1);
+
+// 14. Please Insert the element at 0 index of array
+const ele = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+]; //(insert,'Funday')
+const ele1 = [101, -52, -10, 0.56, 5]; //insert → (15, 8, 10+1)
+const insertEle = (arr, insert, insert1, insert2) => {
+  arr.unshift(insert, insert1, insert2);
+  console.log(arr);
+};
+insertEle(ele, "Funday");
+insertEle(ele1, 15, 8, 10 + 1);
+
+// 15. Please remove the element from 0 index of array
+const removeEle = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "June",
+  "July",
+  "Aug",
+  "Sept",
+  "Oct",
+  "Nov",
+  "Dec",
+]; // remove(‘Jan’, ‘Feb’)
+const removeEle1 = [11, -152, -10, 2.56, -5]; //remove → (11, -152
+const insertFirst = (arr1, remove, remove1) => {
+  arr1.shift(remove, remove1);
+  console.log(arr1);
+};
+insertFirst(removeEle);
+insertFirst(removeEle1);
