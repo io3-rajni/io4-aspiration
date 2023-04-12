@@ -202,7 +202,9 @@ const findIndex = (array) => {
   array.map((e, i) => {
     switch (e) {
       case e > 11:
-        newVar = e;
+        console.log("000001", e);
+
+        // newVar = e;
         //  newVar;
         newVar.push(e);
         break;
@@ -211,8 +213,8 @@ const findIndex = (array) => {
     }
   });
 };
-console.log(newVar);
-console.log(findIndex(findInd));
+findIndex(findInd);
+console.log("00000", newVar);
 
 // 11. Please verify if following includes in array
 const includes = [
@@ -252,7 +254,7 @@ const insert1 = [
 ]; // (insert‘Funday’)
 
 const insert2 = [101, -52, -10, 0.56, 5];
-const insert = [];
+
 //insert → (15, 8, 10+1)
 const insertElement = (
   ele,
