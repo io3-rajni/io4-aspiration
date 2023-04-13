@@ -58,9 +58,57 @@ console.log(Object.isFrozen(stateIndia));
 //    "getAge" which returns the age of the car (i.e. the difference between the current year and the "year" property)
 
 const carObject = {
-  make: "india",
-  model: "",
-  year: 2000,
+  assembly: "india",
+  model: "Thar",
+  year: 2010,
   color: "black",
   isRunning: true,
+  start: function (start) {
+    return `${(carObject.isRunning = start)}`;
+  },
+  stop: (stop) => {
+    return this.isRunning.push(stop);
+  },
+  getAge: (age) => {
+    return `${age - year}`;
+  },
 };
+// carObject.start = ;
+carObject.start("true");
+// carObject.stop = false;
+carObject.getAge = 2020;
+console.log(carObject);
+const abc = function () {
+  return "This is anonymous function";
+};
+
+const array = [5, 7, 5, 144, 7].map(function (element, index) {
+  let res = element * 2 + element;
+  return res;
+});
+
+console.log("14--->", abc());
+console.log("15--->", array);
+
+const person = {
+  firstName: "Abraham",
+  lastName: "Lincoln",
+  age: 45,
+  hobbies: ["Chess", "Horse Riding"],
+  fullName: function () {
+    return `${this.firstName}  ${this.lastName}`;
+  },
+  addHobbies: function (hobby) {
+    return this.hobbies.push(hobby);
+  },
+};
+
+person.firstName = "William";
+// person.fullName();
+person.addHobbies("Swimming");
+person.addHobbies("Cricket");
+
+person.fullName2 = `${person.firstName} ${person.lastName}`;
+console.log("9 --->", person);
+
+console.log("10 --->", person.fullName());
