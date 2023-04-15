@@ -47,11 +47,17 @@ const array = [
 // }
 
 // //5. Write a program that prompts the user to enter a number, then prints out all the prime numbers up to that number.
-const number = prompt(`enter prime Number`);
+// const number = prompt(`enter prime Number`);
 // console.log(`Enter number ${number}`);
-for (let i = 2; i <= number; i++) {
-//   if ((num = i % 2 == 0)) {
-    
-//   }
-for()
+for (let i = 1; i <= 10; i++) {
+  let flag = 0;
+  for (let j = 2; j < i; j++) {
+    if (i % j == 0) {
+      flag = 1;
+      break;
+    }
+  }
+  if (i > 1 && flag == 0) {
+    console.log("prime number", i);
+  }
 }
