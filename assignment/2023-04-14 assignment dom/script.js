@@ -47,17 +47,41 @@ const array = [
 // }
 
 // //5. Write a program that prompts the user to enter a number, then prints out all the prime numbers up to that number.
-// const number = prompt(`enter prime Number`);
-// console.log(`Enter number ${number}`);
-for (let i = 1; i <= 10; i++) {
-  let flag = 0;
+const number = prompt(`enter prime Number`);
+for (let i = 0; i <= number; i++) {
+  let prime = 0;
   for (let j = 2; j < i; j++) {
     if (i % j == 0) {
-      flag = 1;
+      prime = 1;
       break;
     }
   }
-  if (i > 1 && flag == 0) {
-    console.log("prime number", i);
+  if (i > 1 && prime == 0) {
+    console.log(`Prime Number`, i);
   }
+}
+//6. Write a function that takes a sentence as an input and returns the number of words in the sentence.
+// const lengthFind = "i am rajni";
+// const sentence=sentence.filter(ele, ind)=>{
+// if(ele/2==0){
+// console.log(ele)
+// }
+// }
+
+//7. Write a function that takes an array of numbers and returns a new array with only the even numbers from the original array.
+
+const evenNum = [12, 85, 74, 663, 96, 5];
+const empty = [];
+
+const even = (empty.filter = (ele) => {
+  if (ele / 2 == 0) {
+  }
+});
+console.log(empty);
+var inputs = [1, 2, 3, 4, 5, 6];
+var result = empty.filter((x) => x % 2 == 0);
+console.log(result);
+//10. Write a function that takes two numbers as inputs and returns their greatest common divisor.
+for (let i = 1; i <= 10; i++) {
+  console.log(`2 x ${i} = ${11 * i}`);
 }
