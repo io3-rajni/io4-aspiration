@@ -73,7 +73,7 @@ splitString.map((item, i) => {
   }
 });
 console.log("length of string", count, count1);
-// gajniBrain.replace("previous thinking", "new thinking");
+
 // for(let i=1;i<=lengthFind.length;i++){
 //   if(){
 

@@ -1,3 +1,16 @@
 body {
-  background: #a54232;
+  background: linear-gradient(to right, #f9345f 0%, #5d35af 100%);
+}
+
+table,
+tr {
+  background: linear-gradient(to right, rgb(16, 99, 78) 0%, #6ac2bf 100%);
+}
+td,
+th {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th:hover {
+  background-color: rgb(172, 199, 202);
 }

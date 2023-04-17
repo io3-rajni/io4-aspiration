@@ -9,91 +9,162 @@
   </head>
   <body>
     <script>
-      const [bodyElement] = document.getElementsByTagName("body");
+      let bodyTag = document.querySelector("body");
+      // Div-Section
+      let sectionTag = document.createElement("section");
+      bodyTag.appendChild(sectionTag);
+      sectionTag.setAttribute("class", "sectionClass");
+      const h2Tag = document.createElement("h2");
+      h2Tag.innerHTML = "Fixed Table Header";
+      sectionTag.appendChild(h2Tag);
+      // Table
+      const tableTag = document.createElement("table");
+      sectionTag.appendChild(tableTag);
 
-      // 2. target section
-      // destructure array and get first element
-      //   const [firstSection] = bodyElement.querySelectorAll("section");
-      //   console.log("2--> firstSection--", firstSection);
+      // table Row
+      const trTag = document.createElement("tr");
+      tableTag.appendChild(trTag);
+      // table-head
+      const thTag = document.createElement("th");
+      thTag.innerHTML = "COMPANY";
+      trTag.appendChild(thTag);
+      const thTag1 = document.createElement("th");
+      thTag1.innerHTML = "PRICE";
+      trTag.appendChild(thTag1);
+      const thTag2 = document.createElement("th");
+      thTag2.innerHTML = "CHANGE";
+      trTag.appendChild(thTag2);
+      const thTag3 = document.createElement("th");
+      thTag3.innerHTML = "CHANGE%";
+      trTag.appendChild(thTag3);
+      // table Row-2
+      const trTag2 = document.createElement("tr");
+      tableTag.appendChild(trTag2);
 
-      //--------------How to create new element using DOM----------
-      // 3. document.createElement('h1') use to create element
-      // Store it in new variable
-      const sectionDiv = document.createElement("div");
-      // create attribute
-      sectionDiv.setAttribute("class", "avengers");
+      // table-head-2
+      const tdTag1 = document.createElement("td");
+      tdTag1.innerHTML = "AUSTRALIAN COMPANY";
+      trTag2.appendChild(tdTag1);
+      const tdTag2 = document.createElement("td");
+      tdTag2.innerHTML = "$2.38";
+      trTag2.appendChild(tdTag2);
+      const tdTag3 = document.createElement("td");
+      tdTag3.innerHTML = "-0.01";
+      trTag2.appendChild(tdTag3);
+      const tdTag4 = document.createElement("td");
+      tdTag4.innerHTML = "-1.36%";
+      trTag2.appendChild(tdTag4);
+      // table Row-3
+      const trTag3 = document.createElement("tr");
+      tableTag.appendChild(trTag3);
+      // table-head-3
+      const tdTag0 = document.createElement("td");
+      tdTag0.innerHTML = "AUSENCO";
+      trTag3.appendChild(tdTag0);
+      const tdTag11 = document.createElement("td");
+      tdTag11.innerHTML = "$3.23";
+      trTag3.appendChild(tdTag11);
+      const tdTag22 = document.createElement("td");
+      tdTag22.innerHTML = "+0.01";
+      trTag3.appendChild(tdTag22);
+      const tdTag33 = document.createElement("td");
+      tdTag33.innerHTML = "+0.36%";
+      trTag3.appendChild(tdTag33);
 
-      //4. appendChild() --. used to add any element to any element
-      // example: firstSection is targeted where i want to insert element
-      // .appendChild(sectionDiv) sectionDiv passed in .appendChild where it needs to join
-      //   firstSection.appendChild(sectionDiv);
+      // table Row-4
+      const trTag4 = document.createElement("tr");
+      tableTag.appendChild(trTag4);
+      // table-head-4
+      const tdTagFirst = document.createElement("td");
+      tdTagFirst.innerHTML = "ADELAIDE";
+      trTag4.appendChild(tdTagFirst);
+      const tdTagSecond = document.createElement("td");
+      tdTagSecond.innerHTML = "$1.38";
+      trTag4.appendChild(tdTagSecond);
+      const tdTagThird = document.createElement("td");
+      tdTagThird.innerHTML = "+0.12";
+      trTag4.appendChild(tdTagThird);
+      const tdTagFourth = document.createElement("td");
+      tdTagFourth.innerHTML = "-0.36%";
+      trTag4.appendChild(tdTagFourth);
+      // table Row-5
+      const trTag5 = document.createElement("tr");
+      tableTag.appendChild(trTag5);
+      // table-head-5
+      const td1 = document.createElement("td");
+      td1.innerHTML = "ADITIYA BIRLA";
+      trTag5.appendChild(td1);
+      const td2 = document.createElement("td");
+      td2.innerHTML = "$1.38";
+      trTag5.appendChild(td2);
+      const td3 = document.createElement("td");
+      td3.innerHTML = "+0.12";
+      trTag5.appendChild(td3);
+      const td4 = document.createElement("td");
+      td4.innerHTML = "-0.36%";
+      trTag5.appendChild(td4);
+      // // table Row-6
+      const trTag6 = document.createElement("tr");
+      tableTag.appendChild(trTag6);
+      // table-head-7
+      const td11 = document.createElement("td");
+      td11.innerHTML = "AUSTRALIAN COMPANY";
+      trTag6.appendChild(td11);
+      const td22 = document.createElement("td");
+      td22.innerHTML = "$3.38";
+      trTag6.appendChild(td22);
+      const td33 = document.createElement("td");
+      td33.innerHTML = "-0.13";
+      trTag6.appendChild(td33);
+      const td44 = document.createElement("td");
+      td44.innerHTML = "+0.36%";
+      trTag6.appendChild(td44);
+      // table Row-7
+      const trTag7 = document.createElement("tr");
+      tableTag.appendChild(trTag7);
 
-      // Creating new ul tag
-      const olTag = document.createElement("ol");
+      // table-head-7
+      const tdTAG1 = document.createElement("td");
+      tdTAG1.innerHTML = "AUSENCO";
+      trTag7.appendChild(tdTAG1);
+      const tdTAG2 = document.createElement("td");
+      tdTAG2.innerHTML = "$1.35";
+      trTag7.appendChild(tdTAG2);
+      const tdTAG3 = document.createElement("td");
+      tdTAG3.innerHTML = "+0.13";
+      trTag7.appendChild(tdTAG3);
+      const tdTAG4 = document.createElement("td");
+      tdTAG4.innerHTML = "-0.40%";
+      trTag7.appendChild(tdTAG4);
 
-      // create attribute of type in ul
-      olTag.setAttribute("type", "A");
+      tableTag.style.color = "white";
 
-      // appending ul tag to sectionDiv
-      sectionDiv.appendChild(olTag);
+      tableTag.style.width = "55%";
+      tableTag.style.margin = "auto";
+      tableTag.style.marginTop = "10%";
+      tableTag.style.height = "30rem";
+      tableTag.style.background = "#25BAB6";
+      tableTag.style.fontSize = "1.5rem";
+      // Second-table
+      //   const liTags = olTag.childNodes;
+      //   for (let i = 0; i <= liTags.lengtd; i++) {
+      //     if (i % 2 == 0) {
+      //       liTags[i].style.color = "red";
+      //       liTags[i].style.fontSize = "20px";
 
-      // Creating new li tag
-      const liTagSpider = document.createElement("li");
+      //       liTags[i].setAttribute("class", "red");
+      //     } else {
+      //       liTags[i].style.color = "blue";
+      //       liTags[i].setAttribute("class", "blue");
+      //     }
+      //   }
 
-      // --------------how to add text in any element ---------------
-      // 1.  innerText = 'my text'
-      // 2.  document.createTextNode('my Text')
-
-      // inserting text using innerText
-      liTagSpider.innerText = "Spider-Man";
-
-      // 2nd li tag
-      const liTagIronMan = document.createElement("li");
-
-      // inserting text using createTextNode
-      const ironManText = document.createTextNode("Iron-man");
-      // adding text to li
-      liTagIronMan.append(ironManText);
-
-      // ---prepend
-      const liThor = document.createElement("li");
-      liThor.innerText = "Thor";
-
-      const liHulk = document.createElement("li");
-      liHulk.innerText = "Hulk";
-
-      // adding li to ul
-      olTag.appendChild(liTagSpider);
-      olTag.append(liTagIronMan);
-      olTag.prepend(liThor);
-      olTag.prepend(liHulk);
-
-      // styling
-      sectionDiv.style.border = "2px solid black";
-      sectionDiv.style.borderRadius = "100px";
-      sectionDiv.style.width = "20%";
-      sectionDiv.style.background = "yellow";
-
-      console.log("olTag", olTag.childNodes);
-
-      const liTags = olTag.childNodes;
-      for (let i = 0; i <= liTags.length; i++) {
-        if (i % 2 == 0) {
-          liTags[i].style.color = "red";
-          liTags[i].style.fontSize = "20px";
-
-          liTags[i].setAttribute("class", "red");
-        } else {
-          liTags[i].style.color = "blue";
-          liTags[i].setAttribute("class", "blue");
-        }
-      }
-
-      const inputTag = document.createElement("input");
-      inputTag.setAttribute("type", "text");
-      sectionDiv.appendChild(inputTag);
-      inputTag.style.width = "100px";
-      inputTag.style.height = "10px";
+      //   const inputTag = document.createElement("input");
+      //   inputTag.setAttribute("type", "text");
+      //   sectionDiv.appendChild(inputTag);
+      //   inputTag.style.width = "100px";
+      //   inputTag.style.height = "10px";
+      //
     </script>
   </body>
 </html>
