@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background: linear-gradient(to right, #f9345f 0%, #5d35af 100%);
 }
@@ -5,10 +10,15 @@ body {
 table,
 tr {
   background: linear-gradient(to right, rgb(16, 99, 78) 0%, #6ac2bf 100%);
-}
-td,
-th {
   border: 1px solid white;
+}
+.trTagFirst {
+  height: 1rem;
+  float: right;
+  font-size: 1rem;
+  background: linear-gradient(to right, rgb(16, 99, 78) 0%, #6ac2bf 100%);
+}
+td {
   border-collapse: collapse;
 }
 table,

@@ -18,15 +18,23 @@
       // sectionTag.style.margin = "20%";
       // sectionTag.style.margin = "20%";
       // sectionTag.style.margin = "20%";
+
       // Table
+      // table Row
       const tableTag = document.createElement("table");
       sectionTag.appendChild(tableTag);
+      const trTagFirst = document.createElement("tr");
+      trTagFirst.setAttribute("class", "trClass");
+
+      tableTag.appendChild(trTagFirst);
+
+      // const headTag = document.createElement("th");
+      // trTagFirst.appendChild(headTag);
       const headerTag = document.createElement("h2");
-      headerTag.style.width = "100";
-      headerTag.style.margin = "auto";
 
       headerTag.innerHTML = "Fixed Table Header";
-      tableTag.appendChild(headerTag);
+      trTagFirst.appendChild(headerTag);
+
       // table Row
       const trTag = document.createElement("tr");
       tableTag.appendChild(trTag);
@@ -34,18 +42,18 @@
       const trTag1 = document.createElement("tr");
       tableTag.appendChild(trTag1);
       // table-head
-      const thTag = document.createElement("th");
-      thTag.innerHTML = "COMPANY";
-      trTag.appendChild(thTag);
-      const thTag1 = document.createElement("th");
-      thTag1.innerHTML = "PRICE";
-      trTag.appendChild(thTag1);
-      const thTag2 = document.createElement("th");
-      thTag2.innerHTML = "CHANGE";
-      trTag.appendChild(thTag2);
-      const thTag3 = document.createElement("th");
-      thTag3.innerHTML = "CHANGE%";
-      trTag.appendChild(thTag3);
+      const tdTag00 = document.createElement("td");
+      tdTag00.innerHTML = "COMPANY";
+      trTag.appendChild(tdTag00);
+      const tdTag10 = document.createElement("td");
+      tdTag10.innerHTML = "PRICE";
+      trTag.appendChild(tdTag10);
+      const tdTag20 = document.createElement("td");
+      tdTag20.innerHTML = "CHANGE";
+      trTag.appendChild(tdTag20);
+      const tdTag30 = document.createElement("td");
+      tdTag30.innerHTML = "CHANGE%";
+      trTag.appendChild(tdTag30);
       // table Row-2
       const trTag2 = document.createElement("tr");
       tableTag.appendChild(trTag2);
@@ -151,7 +159,7 @@
       tableTag.style.margin = "auto";
       tableTag.style.marginTop = "10%";
       tableTag.style.height = "15rem";
-      tableTag.style.background = "#25BAB6";
+      // tableTag.style.background = "#25BAB6";
       tableTag.style.fontSize = "10px";
       // Second-table
       //   const liTags = olTag.childNodes;
