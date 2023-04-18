@@ -14,22 +14,25 @@
       let sectionTag = document.createElement("section");
       bodyTag.appendChild(sectionTag);
       sectionTag.setAttribute("class", "sectionClass");
-      (sectionTag.style.margin = "5%"), "27%";
-      sectionTag.style.width = "80%";
-      // sectionTag.style.margin = "20%";
-      // sectionTag.style.margin = "20%";
-      // sectionTag.style.margin = "20%";
 
-      const h2Tag = document.createElement("h2");
-      h2Tag.innerHTML = "Fixed Table Header";
-      sectionTag.appendChild(h2Tag);
+      // sectionTag.style.margin = "20%";
+      // sectionTag.style.margin = "20%";
+      // sectionTag.style.margin = "20%";
       // Table
       const tableTag = document.createElement("table");
       sectionTag.appendChild(tableTag);
+      const headerTag = document.createElement("h2");
+      headerTag.style.width = "100";
+      headerTag.style.margin = "auto";
 
+      headerTag.innerHTML = "Fixed Table Header";
+      tableTag.appendChild(headerTag);
       // table Row
       const trTag = document.createElement("tr");
       tableTag.appendChild(trTag);
+
+      const trTag1 = document.createElement("tr");
+      tableTag.appendChild(trTag1);
       // table-head
       const thTag = document.createElement("th");
       thTag.innerHTML = "COMPANY";
@@ -144,11 +147,8 @@
       trTag7.appendChild(tdTAG4);
 
       tableTag.style.color = "white";
-
-      tableTag.style.width = "55%";
-      let className = document.getElementsByClassName("sectionClass");
-      // className?.style.width = "100%";
-      console.log("section class", className);
+      tableTag.style.width = "71%";
+      tableTag.style.margin = "auto";
       tableTag.style.marginTop = "10%";
       tableTag.style.height = "15rem";
       tableTag.style.background = "#25BAB6";
