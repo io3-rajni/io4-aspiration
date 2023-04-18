@@ -11,6 +11,7 @@ th {
   border: 1px solid white;
   border-collapse: collapse;
 }
-th:hover {
-  background-color: rgb(172, 199, 202);
+table,
+tr:hover {
+  background: rgb(172, 199, 202);
 }

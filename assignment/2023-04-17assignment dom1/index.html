@@ -14,6 +14,12 @@
       let sectionTag = document.createElement("section");
       bodyTag.appendChild(sectionTag);
       sectionTag.setAttribute("class", "sectionClass");
+      (sectionTag.style.margin = "5%"), "27%";
+      sectionTag.style.width = "80%";
+      // sectionTag.style.margin = "20%";
+      // sectionTag.style.margin = "20%";
+      // sectionTag.style.margin = "20%";
+
       const h2Tag = document.createElement("h2");
       h2Tag.innerHTML = "Fixed Table Header";
       sectionTag.appendChild(h2Tag);
@@ -140,11 +146,13 @@
       tableTag.style.color = "white";
 
       tableTag.style.width = "55%";
-      tableTag.style.margin = "auto";
+      let className = document.getElementsByClassName("sectionClass");
+      // className?.style.width = "100%";
+      console.log("section class", className);
       tableTag.style.marginTop = "10%";
-      tableTag.style.height = "30rem";
+      tableTag.style.height = "15rem";
       tableTag.style.background = "#25BAB6";
-      tableTag.style.fontSize = "1.5rem";
+      tableTag.style.fontSize = "10px";
       // Second-table
       //   const liTags = olTag.childNodes;
       //   for (let i = 0; i <= liTags.lengtd; i++) {
