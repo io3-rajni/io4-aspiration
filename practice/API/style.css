@@ -1,0 +1,45 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+#accessId {
+  width: 100%;
+  background-color: darkgrey;
+}
+.card {
+  background-image: url("https://wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-4.png");
+  background-repeat: no-repeat;
+}
+.cards-section {
+  font-size: 2rem;
+  color: aliceblue;
+}
+img {
+  height: 16rem;
+  margin-left: 11rem;
+}
+a input {
+  height: 4rem;
+  width: 10rem;
+  margin-left: 14rem;
+  padding-top: 0rem;
+  margin-top: 3rem;
+  border-radius: 11px;
+  background: darkblue;
+  box-shadow: 3px 2px 1px;
+  color: aliceblue;
+}
+.card-title {
+  margin: 2rem 7rem 1rem 16rem;
+  font-size: 1.5rem;
+  color: aliceblue;
+}
+.text-muted {
+  margin-left: 11rem;
+  color: aliceblue;
+}
+.card {
+  margin: 50px;
+}

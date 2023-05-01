@@ -21,8 +21,8 @@
 
     <script>
       // https://pokeapi.co/api/v2/pokemon?limit=151
-      const api = " https://pokeapi.co/api/v2/pokemon/ditto";
-      const div = document.getElementById("pokeId");
+      const api = "https://pokeapi.co/api/v2/pokemon/ditto";
+      const accessDiv = document.getElementById("pokeId");
       const GetData = async () => {
         let data = await fetch(api);
         data = await data.json();
@@ -32,7 +32,7 @@
         // console.log("get data", d);
         console.log(`data`, data);
         // data.stats.map(() => {});
-        div.innerHTML = `${`
+        accessDiv.innerHTML = `${`
             <div class="card" style="width: 18rem;">
                 <img src="${
                   data?.sprites?.other?.dream_world?.front_default
