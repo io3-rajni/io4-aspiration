@@ -16,29 +16,37 @@
     <h4>
       Get Pokemon Data
       <input type="button" value="click" onClick="GetData()" />
-    </h2>
-    <div class="pokemonData" style="display: flex; flex-wrap: wrap"></div>
+    </h4>
+    <div class="pokemonData" id="pokeId"></div>
+
+    <script>
+      // https://pokeapi.co/api/v2/pokemon?limit=151
+      const api = " https://pokeapi.co/api/v2/pokemon/ditto";
+      const div = document.getElementById("pokeId");
+      const GetData = async () => {
+        let data = await fetch(api);
+        data = await data.json();
+        // let d = data?.species?.name;
+        // let img = data?.species?.url;
+        // console.log(img);
+        // console.log("get data", d);
+        console.log(`data`, data);
+        // data.stats.map(() => {});
+        div.innerHTML = `${`
+            <div class="card" style="width: 18rem;">
+                <img src="${
+                  data?.sprites?.other?.dream_world?.front_default
+                }" class="card-img-top" alt="...">
+                <h5 class="card-title" >${data?.name}</h5>
+                <div class="card-body">
+            <p class="card-text">${data.game_indices.map((item, i) => {
+              return item?.version.name;
+            })}</p>
+            <a href="#" class="btn btn-primary">${data?.sprites}</a>
+          </div>
+        </div>
+            `}`;
+      };
+    </script>
   </body>
-  <script>
-    // https://pokeapi.co/api/v2/pokemon?limit=151
-    const api = " https://pokeapi.co/api/v2/pokemon/ditto";
-    const GetData = async () => {
-      let data = await fetch(api);
-      data = await data.json();
-      console.log(`data`, data);
-      const tag=document.getElementsByTagName('div')
-    //   [data]?.map((cartoon,index)=>{
-    //       console.log('Ashu',cartoon)
-    // })
-   ' <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>'
-      console.log(tag)
-    };
-  </script>
 </html>
