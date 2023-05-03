@@ -37,8 +37,11 @@
   border-width: 1px 1px 0px 0;
   border-style: solid;
 }
-.calculator-btn button #all-clear {
+.calculator-btn button .ac {
   color: #ff7665;
+}
+.calculator-btn button .same {
+  color: #ffbc56;
 }
 .calculator-button button:nth-child(4n) {
   border-right: none;
