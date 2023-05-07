@@ -40,7 +40,7 @@
 .calculator-btn button.ac {
   color: #ff7665;
 }
-.calculator-btn button.same {
+.calculator-btn button.spclkey {
   color: #ffbc56;
 }
 /*The border has been managed in every fourth button so that the design will not distract.*/
