@@ -1,0 +1,23 @@
+ul {
+  display: flex;
+  list-style-type: none;
+  padding-top: 0.4rem;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: floralwhite;
+  background: darkblue;
+  height: 2rem;
+  width: 100%;
+}
+div .navbar {
+  display: flex;
+  width: 53%;
+  justify-content: space-around;
+}
+li:hover {
+  width: 7rem;
+  background: rgb(248, 249, 250);
+  color: rgb(24, 17, 1);
+  font-size: 1.2rem;
+}
