@@ -1,8 +1,8 @@
-ul {
+.navbar-section {
   display: flex;
   list-style-type: none;
   padding-top: 0.4rem;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   font-size: 1.2rem;
   font-weight: 900;
   color: floralwhite;
@@ -10,10 +10,20 @@ ul {
   height: 2rem;
   width: 100%;
 }
+ul {
+  color: floralwhite;
+  background: darkblue;
+}
 div .navbar {
+  list-style-type: none;
+  color: floralwhite;
+  background: darkblue;
   display: flex;
   width: 53%;
   justify-content: space-around;
+}
+li {
+  width: 7rem;
 }
 li:hover {
   width: 7rem;

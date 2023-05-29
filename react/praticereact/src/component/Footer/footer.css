@@ -1,12 +1,19 @@
-.footer-ul {
-  display: flex;
-  width: 100%;
+.footer-section {
+  /* float: right; */
+  /* display: flex; */
   color: floralwhite;
   background: darkblue;
-  margin-top: 37%;
+  /* justify-content: end !important; */
 }
-
-.footer-section li {
+.footer-section {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  /* width: 100%; */
+  /* justify-content: end; */
+  color: floralwhite;
+  background: darkblue;
+}
+li {
+  /* background-color: red; */
+  float: right;
 }

@@ -2,7 +2,7 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <>
-      <ul>
+      <ul className="navbar-section">
         <div className="navbar">
           <li>Home</li>
           <li>File</li>

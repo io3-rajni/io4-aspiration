@@ -1,5 +1,6 @@
 // alert(`------`);
-const month = prompt("enter any month, Ex: Jun");
+// const month = prompt("enter any month, Ex: Jun");
+const month = "enter any month, Ex: Jun";
 
 function findMonth(month) {
   console.log(`Month ${month}`);
@@ -40,3 +41,47 @@ function findMonth(month) {
   }
 }
 console.log(findMonth(month));
+const arr = ["1", "2", "3", "4", "5"];
+// const te = [...arr].sort((a, b) => b - a);
+console.log(arr.reverse());
+const arr1 = [
+  "66.67%",
+  "33.33%",
+  "66.67%",
+  "66.67%",
+  "66.67%",
+  "100.00%",
+  "66.67%",
+  "50.00%",
+  "100.00%",
+  "50.00%",
+  "66.67%",
+  "33.33%",
+  "33.33%",
+  "66.67%",
+  "100.00%",
+  "66.67%",
+  "66.67%",
+  "33.33%",
+  "66.67%",
+  "100.00%",
+  "0.00%",
+  "66.67%",
+  "0.00%",
+  "66.67%",
+  "66.67%",
+  "66.67%",
+  "33.33%",
+  "66.67%",
+  "33.33%",
+  "66.67%",
+  "100.00%",
+  "100.00%",
+  "66.67%",
+  "100.00%",
+  "33.33%",
+  "33.33%",
+  "66.67%",
+  "100.00%",
+];
+console.log(arr1.reverse());
