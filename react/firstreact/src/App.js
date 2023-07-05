@@ -14,12 +14,3 @@ function App() {
 }
 
 export default App;
-
-// jsx and js
-
-// const test= () => {
-//   return <div>
-//     dsf
-//   </div>
-// }
-// test();
