@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duplicate find</title>
+  </head>
+  <body>
+    <script>
+      console.time("codeStart");
+      const arr = [4, 856, 92, 35, 541, 541, 8, 9, 4, 8, 9, 2, 7, 2, 8];
+      const dup = [...new Set(arr)];
+      console.log(dup);
+
+      const arr1 = [
+        "a",
+        "r",
+        "f",
+        "g",
+        "y",
+        "a",
+        "er",
+        "a",
+        "r",
+        "f",
+        "g",
+        "y",
+        "a",
+        "er",
+      ];
+      const dup1 = arr1.reduce((perv, curr) => {
+        perv[curr] = (perv[curr] || 0) + 1;
+        return perv;
+      }, []);
+      console.log(dup1);
+      console.timeEnd("codeStart");
+    </script>
+  </body>
+</html>

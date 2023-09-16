@@ -94,13 +94,13 @@ const rev3 = ["z", "i", "a", "x", "k", "s"];
 const rev4 = [115, 54, 101, -52, -10, 0.56, 5, 12, 8, 130, 44];
 const rev5 = ["shoes", "shirts", "socks", "sweaters"];
 const res = rev.reverse();
-const res1 = rev.reverse();
-const res2 = rev.reverse();
-const res3 = rev.reverse();
-const res4 = rev.reverse();
-const res5 = rev.reverse();
+const res1 = rev1.reverse();
+const res2 = rev3.reverse();
+const res3 = rev4.reverse();
+const res4 = rev5.reverse();
+// const res5 = rev6.reverse();
 
-console.log("Reverse Method-->", res, res2, res3, res4, res5);
+console.log("Reverse Method-->", res, rev1, res2, res3, res4);
 
 // 8. Find the index in the following arrays.
 const first1 = [210, "Sunday", 702, true, null, "90", "vinay", "CAT"]; //find index of (90, true, ‘Ajay’)
