@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .menu {
+            float: left;
+            width: 20%;
+            text-align: center;
+        }
+
+        .menu a {
+            background-color: #e5e5e5;
+            padding: 8px;
+            margin-top: 7px;
+            display: block;
+            width: 100%;
+            color: black;
+        }
+
+        .main {
+            float: left;
+            width: 60%;
+            padding: 0 20px;
+            display: flex;
+        }
+
+        .right {
+            background-color: #e5e5e5;
+            float: left;
+            width: 40%;
+            padding: 15px;
+            margin-top: 7px;
+            text-align: center;
+        }
+
+        @media only screen and (max-width: 620px) {
+
+            /* For mobile phones: */
+            .menu,
+            .main,
+            .right {
+                width: 100%;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css">
+</head>
+
+<body style="font-family:sans-serif;">
+    <div class="grid-container">
+        <div class="grid-item">
+            <i class="fa-solid fa-store fontSize"></i>
+            <p class="title">Sed ut eim ipsam causam</p>
+            <p class="paragraph">It is the most populous city in the United Kingdom,
+                with a metropolitan area of over 13 million inhabitants.</p>
+        </div>
+        <div class="grid-item">
+            <i class="fa-solid fa-truck-fast fontSize"></i>
+            <p class="title">At vero eos censes aut per</p>
+            <p class="paragraph">The Paris area is one of the largest population centers in Europe,
+                with more than 12 million inhabitants.</p>
+        </div>
+        <div class="grid-item">
+            <i class="fa-solid fa-hand-holding-dollar fontSize"></i>
+            <p class="title">Premium igitur, inquit, mode</p>
+            <p class="paragraph">It is the center of the Greater Tokyo Area,
+                and the most populous metropolitan area in the world.</p>
+        </div>
+
+    </div>
+    <!-- <div class="w3-row-padding" style="display: flex;">
+        <div class="w3-third">
+            <h2>London</h2>
+            <p>Sed ut eim ipsam causam</p>
+            <p>It is the most populous city in the United Kingdom,
+                with a metropolitan area of over 13 million inhabitants.</p>
+        </div>
+
+        <div class="w3-third">
+            <h2>Paris</h2>
+            <p>At vero eos censes aut per</p>
+            <p>The Paris area is one of the largest population centers in Europe,
+                with more than 12 million inhabitants.</p>
+        </div>
+
+        <div class="w3-third">
+            <h2>Tokyo</h2>
+            <p>Premium igitur, inquit, mode</p>
+            <p>It is the center of the Greater Tokyo Area,
+                and the most populous metropolitan area in the world.</p>
+        </div>
+    </div> -->
+    <div style="border: 2px solid #9595a366; border-radius: 5px;">
+        <!-- <h1>Hello World</h1> -->
+    </div>
+
+    <div class="grid-container-footer">
+  
+        <div class="grid-item item2">2</div>
+        <div class="grid-item item3">3</div>  
+        <div class="grid-item item4">4</div>
+        
+      </div>
+
+    <div style="overflow:auto">
+        <!-- <div class="menu">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+        </div> -->
+
+        <div class="main">
+            <div>
+                <h2>Categories</h2>
+                <ul>
+                    <li>Best Seller</li>
+                    <li>Most Purchased</li>
+                    <li>Top Rated</li>
+                    <li>New Arrivals</li>
+                    <li>Editors choice</li>
+                    <li>Brands</li>
+                    <li>On Sale</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Categories</h2>
+                <ul>
+                    <li>Best Seller</li>
+                    <li>Most Purchased</li>
+                    <li>Top Rated</li>
+                    <li>New Arrivals</li>
+                    <li>Editors choice</li>
+                    <li>Brands</li>
+                    <li>On Sale</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+    </div>
+
+    <div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© copyright w3schools.com</div>
+
+</body>
+
+</html>
