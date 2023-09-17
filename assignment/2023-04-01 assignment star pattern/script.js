@@ -6,8 +6,15 @@ for (let i = 1; i <= 5; i++) {
   }
   document.write(`<br/> `);
 }
+for (let i = 1; i <= 5; i++) {
+  for (let j = 1; j <= i; j++) {
+    document.write(i, ` &nbsp`);
+  }
+  document.write(`<br/> `);
+}
 document.write(`2. Second Star Pattern`);
 document.write(`<br/>`);
+
 
 for (let i = 1; i <= 5; i++) {
   for (let j = 5; j >= i; j--) {
