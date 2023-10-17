@@ -229,11 +229,11 @@ function insuredOrNot(g, ms, a) {
  *
  *
  */
-const english = Number(prompt(`enter english marks`));
-const maths = Number(prompt(`enter Math marks`));
-const physics = Number(prompt(`enter physics marks`));
-const chemistry = Number(prompt(`enter chemistry marks`));
-const computer = Number(prompt(`enter Computer marks`));
+// const english = Number(prompt(`enter english marks`));
+// const maths = Number(prompt(`enter Math marks`));
+// const physics = Number(prompt(`enter physics marks`));
+// const chemistry = Number(prompt(`enter chemistry marks`));
+// const computer = Number(prompt(`enter Computer marks`));
 
 function findDivision(eng = "", math = "", phy = "", chem = "", com = "") {
   let obtMarks = eng + math + phy + chem + com;
@@ -254,4 +254,7 @@ function findDivision(eng = "", math = "", phy = "", chem = "", com = "") {
     console.log(`Try next time`);
   }
 }
-findDivision(english, maths, physics, chemistry, computer);
+// findDivision(english, maths, physics, chemistry, computer);
+const num = 45632;
+const num1 = num.split(",");
+console.log(num1);
