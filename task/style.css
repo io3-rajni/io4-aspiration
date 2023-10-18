@@ -2,7 +2,7 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  font-family: monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 .navbar {
   width: 100%;
@@ -117,29 +117,19 @@ strong {
 
 /* Third Section */
 
-h1 {
-  /* color: aquamarine; */
-  /* font-family: "Montserrat"; */
-}
 .grid-container {
   display: grid;
   column-gap: 50px;
   height: 62vh;
   grid-template-columns: auto auto;
-  /* background-color: #2196f3; */
+
   padding: 31px 20% 29px 15%;
 }
 
 .grid-item {
-  /* background-color: rgba(255, 255, 255, 0.8); */
-  /* border: 1px solid rgba(0, 0, 0, 0.8); */
   padding: 20px;
-  /* font-size: 30px; */
-  /* text-align: center; */
 }
-.pandit-img-1 {
-  /* width: 100%; */
-}
+
 .panditji-img {
   width: 100%;
   height: 47vh;
@@ -209,7 +199,6 @@ h1 {
   padding: 10px 0px;
 }
 .rupee-icon {
-  /* padding: 0px 10px; */
   width: 20px;
   height: 20px;
 }
@@ -220,13 +209,10 @@ h1 {
 .today1 {
 }
 .grid-item-pooja {
-  /* background-color: rgba(255, 255, 255, 0.8); */
-  /* border: 1px solid rgba(0, 0, 0, 0.8); */
   padding: 20px;
-  /* font-size: 30px; */
-  /* text-align: center; */
 }
 .grid-item-other-pooja {
+  border-radius: 10px;
   box-shadow: 1px 1px 9px 0px grey;
 }
 .backGround-img-2 {
@@ -247,16 +233,40 @@ h1 {
   height: 20px;
   background-color: #e9983f;
 }
+.main-footer {
+  height: 42vh;
+  background-color: black;
+}
 .footer {
   display: flex;
   justify-content: space-evenly;
   padding-top: 45px;
   font-size: 15px;
   width: 100%;
-  height: 37vh;
+  height: 35vh;
   background-color: black;
   color: #fff;
+  border-bottom: 1px solid #fff;
 }
-.link li {
-  width: 15%;
+.fa-icon {
+  padding-top: 25px;
+  width: 83%;
+  justify-content: space-around;
+  display: flex;
+}
+.link li,
+.best-pandit {
+  padding-top: 12px;
+  width: 100%;
+  font-size: 12px;
+  color: #ebe3e3;
+}
+.link1 {
+  font-weight: 900;
+}
+.right {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding-top: 14px;
 }
